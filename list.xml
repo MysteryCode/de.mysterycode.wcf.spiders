@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/spiderList.xsd">
-  
+  <spider ident="SemrushBot">
+		<name>SemrushBot</name>
+		<url>http://semrush.com/bot/</url>
+	</spider>
+	<spider ident="UptimeRobot/2.0">
+		<name>UptimeRobot</name>
+		<url>http://uptimerobot.com/</url>
+	</spider>
+	<spider ident="Linkdex">
+		<name>linkdexbot</name>
+		<url>http://www.linkdex.com/en-gb/about/bots/</url>
+	</spider>
+	<spider ident="publiclibraryarchive.org">
+		<name>publiclibraryarchive.org</name>
+	</spider>
+	<spider ident="Tapatalk CloudSearch">
+		<name>Tapatalk CloudSearch</name>
+		<url>https://tapatalk.com/</url>
+	</spider>
+	<spider ident="Pixray-Seeker">
+		<name>Pixray</name>
+		<url>http://www.pixray.com/pixraybot/</url>
+	</spider>
+	<spider ident="Pixray-Seeker">
+		<name>Pixray</name>
+		<url>http://www.pixray.com/pixraybot/</url>
+	</spider>
+	<spider ident="HRCrawler">
+		<name>HRCrawler</name>
+	</spider>
+	<spider ident="360Spider">
+		<name>360Spider</name>
+	</spider>
+	<spider ident="XoviBot">
+		<name>XoviBot</name>
+		<url>http://www.xovibot.net/</url>
+	</spider>
 </data>
