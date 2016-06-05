@@ -45,9 +45,6 @@
 		<name>SEOkicks</name>
 		<url>http://www.seokicks.de/robot.html</url>
 	</spider>
-	<spider ident="WoltLab Community Framework">
-		<name>WCF-Request</name>
-	</spider>
 	<spider ident="seoscanners.net">
 		<name>seoscanners.net</name>
 	</spider>
