@@ -48,4 +48,7 @@
 	<spider ident="WoltLab Community Framework">
 		<name>WCF-Request</name>
 	</spider>
+	<spider ident="seoscanners.net">
+		<name>seoscanners.net</name>
+	</spider>
 </data>
