@@ -39,7 +39,7 @@
 	</spider>
 	<spider ident="Qwantify/2.2w">
 		<name>Qwant</name>
-		<url>http://www.xovibot.net/</url>
+		<url>https://www.qwant.com/</url>
 	</spider>
 	<spider ident="SEOkicks-Robot">
 		<name>SEOkicks</name>
