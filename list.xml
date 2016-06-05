@@ -48,4 +48,8 @@
 	<spider ident="seoscanners.net">
 		<name>seoscanners.net</name>
 	</spider>
+	<spider ident="DotBot">
+		<name>DotBot</name>
+		<url>http://www.opensiteexplorer.org/dotbot</url>
+	</spider>
 </data>
