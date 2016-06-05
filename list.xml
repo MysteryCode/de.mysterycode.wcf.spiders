@@ -37,4 +37,8 @@
 		<name>XoviBot</name>
 		<url>http://www.xovibot.net/</url>
 	</spider>
+	<spider ident="Qwantify/2.2w">
+		<name>Qwant</name>
+		<url>http://www.xovibot.net/</url>
+	</spider>
 </data>
