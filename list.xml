@@ -52,4 +52,8 @@
 		<name>DotBot</name>
 		<url>http://www.opensiteexplorer.org/dotbot</url>
 	</spider>
+	<spider ident="SeznamBot">
+		<name>SeznamBot</name>
+		<url>http://napoveda.seznam.cz/en/seznambot-intro/</url>
+	</spider>
 </data>
