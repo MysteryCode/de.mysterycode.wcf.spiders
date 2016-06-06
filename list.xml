@@ -56,4 +56,8 @@
 		<name>SeznamBot</name>
 		<url>http://napoveda.seznam.cz/en/seznambot-intro/</url>
 	</spider>
+	<spider ident="Mail.RU_Bot">
+		<name>Mail.RU</name>
+		<url>http://go.mail.ru/help/robots</url>
+	</spider>
 </data>
