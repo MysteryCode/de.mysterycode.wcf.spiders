@@ -23,10 +23,6 @@
 		<name>Pixray</name>
 		<url>http://www.pixray.com/pixraybot/</url>
 	</spider>
-	<spider ident="Pixray-Seeker">
-		<name>Pixray</name>
-		<url>http://www.pixray.com/pixraybot/</url>
-	</spider>
 	<spider ident="HRCrawler">
 		<name>HRCrawler</name>
 	</spider>
