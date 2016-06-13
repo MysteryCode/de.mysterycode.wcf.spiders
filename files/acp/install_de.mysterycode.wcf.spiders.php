@@ -1,6 +1,6 @@
 <?php
-use wcf\data\cronjob\CronjobList;
 use wcf\data\cronjob\CronjobAction;
+use wcf\data\cronjob\CronjobList;
 
 $cronList = new CronjobList();
 $cronList->getConditionBuilder()->add('cronjob.className = ?', array('wcf\system\cronjob\RefreshSearchRobotsCronjob'));
