@@ -60,4 +60,7 @@
 		<name>MegaIndex</name>
 		<url>http://megaindex.com/crawler</url>
 	</spider>
+	<spider ident="FRITZ!OS">
+		<name>FeedDaemon FRITZ!OS</name>
+	</spider>
 </data>
