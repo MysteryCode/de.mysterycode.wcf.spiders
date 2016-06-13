@@ -56,4 +56,8 @@
 		<name>Mail.RU</name>
 		<url>http://go.mail.ru/help/robots</url>
 	</spider>
+	<spider ident="MegaIndex.ru">
+		<name>MegaIndex</name>
+		<url>http://megaindex.com/crawler</url>
+	</spider>
 </data>
