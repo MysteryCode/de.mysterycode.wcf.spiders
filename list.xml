@@ -63,4 +63,8 @@
 	<spider ident="FRITZ!OS">
 		<name>FeedDaemon FRITZ!OS</name>
 	</spider>
+	<spider ident="spbot">
+		<name>OpenLinkProfiler Bot</name>
+		<url>http://OpenLinkProfiler.org/bot</url>
+	</spider>
 </data>
