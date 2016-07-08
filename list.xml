@@ -67,4 +67,7 @@
 		<name>OpenLinkProfiler Bot</name>
 		<url>http://OpenLinkProfiler.org/bot</url>
 	</spider>
+	<spider ident="SkypeUriPreview">
+		<name>Skype Preview</name>
+	</spider>
 </data>
