@@ -70,4 +70,8 @@
 	<spider ident="SkypeUriPreview">
 		<name>Skype Preview</name>
 	</spider>
+	<spider ident="netEstate NE Crawler">
+		<name>netEstate NE Crawler</name>
+		<url>http://www.website-datenbank.de/</url>
+	</spider>
 </data>
