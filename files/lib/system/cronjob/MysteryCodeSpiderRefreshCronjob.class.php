@@ -6,6 +6,7 @@ use wcf\system\cache\builder\SpiderCacheBuilder;
 use wcf\system\WCF;
 use wcf\util\HTTPRequest;
 use wcf\util\XML;
+use wcf\system\exception\SystemException;
 
 /**
  * Refreshes list of search robots.
@@ -42,11 +43,22 @@ class MysteryCodeSpiderRefreshCronjob implements ICronjob {
 		
 		foreach ($this->spiderLists as $spiderList) {
 			$request = new HTTPRequest($spiderList);
-			$request->execute();
-			$reply = $request->getReply();
+			
+			try {
+				$request->execute();
+				$reply = $request->getReply();
+			}
+			catch (SystemException $e) {
+				continue;
+			}
 			
 			$xml = new XML();
-			$xml->loadXML('mysterycodeSpiderList.xml', $reply['body']);
+			try {
+				$xml->loadXML('mysterycodeSpiderList.xml', $reply['body']);
+			}
+			catch (SystemException $e) {
+				continue;
+			}
 			$xpath = $xml->xpath();
 			
 			// fetch spiders
@@ -71,11 +83,12 @@ class MysteryCodeSpiderRefreshCronjob implements ICronjob {
 		}
 			
 		if (!empty($this->fetchedSpiders)) {
-			$sql = "INSERT INTO			wcf".WCF_N."_spider
-								(spiderIdentifier, spiderName, spiderURL)
-				VALUES				(?, ?, ?)
-				ON DUPLICATE KEY UPDATE		spiderName = VALUES(spiderName),
-								spiderURL = VALUES(spiderURL)";
+			$sql = "INSERT INTO	wcf".WCF_N."_spider
+				(spiderIdentifier, spiderName, spiderURL)
+				VALUES (?, ?, ?)
+				ON DUPLICATE KEY UPDATE
+					spiderName = VALUES(spiderName),
+					spiderURL = VALUES(spiderURL)";
 			$statement = WCF::getDB()->prepareStatement($sql);
 			
 			WCF::getDB()->beginTransaction();
