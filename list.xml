@@ -74,4 +74,8 @@
 		<name>netEstate NE Crawler</name>
 		<url>http://www.website-datenbank.de/</url>
 	</spider>
+	<spider ident="FeedlyBot">
+		<name>FeedlyBot</name>
+		<url>http://feedly.com</url>
+	</spider>
 </data>
