@@ -3,10 +3,10 @@
 namespace wcf\system\cronjob;
 use wcf\data\cronjob\Cronjob;
 use wcf\system\cache\builder\SpiderCacheBuilder;
+use wcf\system\exception\SystemException;
 use wcf\system\WCF;
 use wcf\util\HTTPRequest;
 use wcf\util\XML;
-use wcf\system\exception\SystemException;
 
 /**
  * Refreshes list of search robots.
