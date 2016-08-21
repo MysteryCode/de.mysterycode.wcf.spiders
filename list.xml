@@ -78,4 +78,8 @@
 		<name>FeedlyBot</name>
 		<url>http://feedly.com</url>
 	</spider>
+	<spider ident="ltx71">
+		<name>LTX71</name>
+		<url>http://ltx71.com/</url>
+	</spider>
 </data>
