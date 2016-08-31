@@ -6,8 +6,8 @@
 		<packagename language="de"><![CDATA[Benutzerdefinierte Spider-Liste]]></packagename>
 		<packagedescription><![CDATA[spiders]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Suchmaschinenroboter]]></packagedescription>
-		<version>1.0.0</version>
-		<date>2016-08-08</date>
+		<version>1.0.1</version>
+		<date>2016-08-31</date>
 	</packageinformation>
 	
 	<requiredpackages>
@@ -15,7 +15,7 @@
 	</requiredpackages>
 	
 	<excludedpackages>
-		<excludedpackage version="2.2.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
+		<excludedpackage version="3.0.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
 	</excludedpackages>
 	
 	<authorinformation>
@@ -36,6 +36,11 @@
 	</instructions>
 	
 	<instructions type="update" fromversion="1.0.0 Beta 1">
+		<!-- files -->
+		<instruction type="file">files.tar</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.0.0">
 		<!-- files -->
 		<instruction type="file">files.tar</instruction>
 	</instructions>

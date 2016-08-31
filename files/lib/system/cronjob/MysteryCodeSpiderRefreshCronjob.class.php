@@ -25,7 +25,7 @@ class MysteryCodeSpiderRefreshCronjob implements ICronjob {
 	 * @var array
 	 */
 	public $spiderLists = array(
-		'https://raw.githubusercontent.com/MysteryCode/de.mysterycode.wcf.spiders/spiderList/list.xml',
+		'https://static.mysterycode.de/spiders/list.xml',
 		'https://assets.woltlab.com/spiderlist/typhoon/list.xml'
 	);
 	
