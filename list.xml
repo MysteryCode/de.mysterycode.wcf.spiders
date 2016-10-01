@@ -82,4 +82,7 @@
 		<name>LTX71</name>
 		<url>http://ltx71.com/</url>
 	</spider>
+	<spider ident="Twitterbot">
+		<name>Twitterbot</name>
+	</spider>
 </data>
