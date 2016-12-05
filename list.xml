@@ -85,4 +85,8 @@
 	<spider ident="Twitterbot">
 		<name>Twitterbot</name>
 	</spider>
+	<spider ident="GoogleStackdriverMonitoring">
+		<name>GoogleStackdriverMonitoring-UptimeChecks(https://cloud.google.com/monitoring)</name>
+		<url>https://cloud.google.com/monitoring</url>
+	</spider>
 </data>
