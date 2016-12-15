@@ -8,9 +8,8 @@ use wcf\system\event\listener\IParameterizedEventListener;
 use wcf\system\WCF;
 
 class MysteryCodeSpiderRefreshUninstallListener implements IParameterizedEventListener {
-
 	/**
-	 * @see	\wcf\system\event\listener\IParameterizedEventListener::execute()
+	 * @inheritDoc
 	 */
 	public function execute($eventObj, $className, $eventName, array &$parameters) {
 		if (!empty($_POST['packageID'])) {

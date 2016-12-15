@@ -6,16 +6,16 @@
 		<packagename language="de"><![CDATA[Benutzerdefinierte Spider-Liste]]></packagename>
 		<packagedescription><![CDATA[spiders]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Suchmaschinenroboter]]></packagedescription>
-		<version>1.0.1</version>
-		<date>2016-08-31</date>
+		<version>1.1.0</version>
+		<date>2016-12-15</date>
 	</packageinformation>
 	
 	<requiredpackages>
-		<requiredpackage minversion="2.1.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
+		<requiredpackage minversion="3.0.0 RC 1"><![CDATA[com.woltlab.wcf]]></requiredpackage>
 	</requiredpackages>
 	
 	<excludedpackages>
-		<excludedpackage version="3.0.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
+		<excludedpackage version="3.1.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
 	</excludedpackages>
 	
 	<authorinformation>
@@ -25,7 +25,7 @@
 	
 	<instructions type="install">
 		<!-- files -->
-		<instruction type="file">files.tar</instruction>
+		<instruction type="file" />
 		
 		<!-- XMLs -->
 		<instruction type="eventListener">xml/eventListener.xml</instruction>
@@ -35,13 +35,20 @@
 		<instruction type="script">acp/install_de.mysterycode.wcf.spiders.php</instruction>
 	</instructions>
 	
-	<instructions type="update" fromversion="1.0.0 Beta 1">
-		<!-- files -->
-		<instruction type="file">files.tar</instruction>
-	</instructions>
-	
 	<instructions type="update" fromversion="1.0.0">
 		<!-- files -->
-		<instruction type="file">files.tar</instruction>
+		<instruction type="file" />
+		
+		<!-- XMLs -->
+		<instruction type="eventListener">xml/eventListener.xml</instruction>
+		<instruction type="cronjob">xml/cronjob.xml</instruction>
+	</instructions>
+	<instructions type="update" fromversion="1.0.1">
+		<!-- files -->
+		<instruction type="file" />
+		
+		<!-- XMLs -->
+		<instruction type="eventListener">xml/eventListener.xml</instruction>
+		<instruction type="cronjob">xml/cronjob.xml</instruction>
 	</instructions>
 </package>

@@ -22,21 +22,21 @@ use wcf\util\XML;
 class MysteryCodeSpiderRefreshCronjob implements ICronjob {
 	/**
 	 * URLs of spiderList.xml-files
-	 * @var array
+	 * @var string[]
 	 */
-	public $spiderLists = array(
+	public $spiderLists = [
 		'https://static.mysterycode.de/spiders/list.xml',
 		'https://assets.woltlab.com/spiderlist/typhoon/list.xml'
-	);
+	];
 	
 	/**
 	 * list of spider-information fetched from the specified URLs
-	 * @var array
+	 * @var []
 	 */
-	public $fetchedSpiders = array();
+	public $fetchedSpiders = [];
 	
 	/**
-	 * @see	\wcf\system\ICronjob::execute()
+	 * @inheritDoc
 	 */
 	public function execute(Cronjob $cronjob) {
 		$existingSpiders = SpiderCacheBuilder::getInstance()->getData();
@@ -70,11 +70,11 @@ class MysteryCodeSpiderRefreshCronjob implements ICronjob {
 					$name = $xpath->query('ns:name', $spider)->item(0);
 					$info = $xpath->query('ns:url', $spider)->item(0);
 					
-					$this->fetchedSpiders[$identifier] = array(
+					$this->fetchedSpiders[$identifier] = [
 						'spiderIdentifier' => $identifier,
 						'spiderName' => $name->nodeValue,
 						'spiderURL' => $info ? $info->nodeValue : ''
-					);
+					];
 				}
 			}
 			
@@ -93,11 +93,11 @@ class MysteryCodeSpiderRefreshCronjob implements ICronjob {
 			
 			WCF::getDB()->beginTransaction();
 			foreach ($this->fetchedSpiders as $parameters) {
-				$statement->execute(array(
+				$statement->execute([
 					$parameters['spiderIdentifier'],
 					$parameters['spiderName'],
 					$parameters['spiderURL']
-				));
+				]);
 			}
 			WCF::getDB()->commitTransaction();
 		}
@@ -108,7 +108,7 @@ class MysteryCodeSpiderRefreshCronjob implements ICronjob {
 		WCF::getDB()->beginTransaction();
 		foreach ($existingSpiders as $spider) {
 			if (!isset($this->fetchedSpiders[$spider->spiderIdentifier])) {
-				$statement->execute(array($spider->spiderIdentifier));
+				$statement->execute([$spider->spiderIdentifier]);
 			}
 		}
 		WCF::getDB()->commitTransaction();
