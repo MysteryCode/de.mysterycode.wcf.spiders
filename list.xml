@@ -89,4 +89,8 @@
 		<name>GoogleStackdriverMonitoring-UptimeChecks(https://cloud.google.com/monitoring)</name>
 		<url>https://cloud.google.com/monitoring</url>
 	</spider>
+	<spider ident="oBot">
+		<name>oBot</name>
+		<url>http://filterdb.iss.net/crawler/</url>
+	</spider>
 </data>
