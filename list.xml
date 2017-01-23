@@ -97,4 +97,8 @@
 		<name>Common Crawl</name>
 		<url>http://www.commoncrawl.org/bot.html</url>
 	</spider>
+	<spider ident="Cliqzbot">
+		<name>Cliqzbot</name>
+		<url>http://cliqz.com/company/cliqzbot</url>
+	</spider>
 </data>
