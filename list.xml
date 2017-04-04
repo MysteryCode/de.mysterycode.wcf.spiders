@@ -101,4 +101,8 @@
 		<name>Cliqzbot</name>
 		<url>http://cliqz.com/company/cliqzbot</url>
 	</spider>
+	<spider ident="SimpleRssPush">
+		<name>Simple RSS Push</name>
+		<url>http://simplerss.b2soft.net</url>
+	</spider>
 </data>
