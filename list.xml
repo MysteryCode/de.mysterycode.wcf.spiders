@@ -86,7 +86,7 @@
 		<name>Twitterbot</name>
 	</spider>
 	<spider ident="GoogleStackdriverMonitoring">
-		<name>GoogleStackdriverMonitoring-UptimeChecks(https://cloud.google.com/monitoring)</name>
+		<name>Google Stackdriver Monitoring</name>
 		<url>https://cloud.google.com/monitoring</url>
 	</spider>
 	<spider ident="oBot">
