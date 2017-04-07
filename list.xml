@@ -105,4 +105,7 @@
 		<name>Simple RSS Push</name>
 		<url>http://simplerss.b2soft.net</url>
 	</spider>
+	<spider ident="Toweya.com bot">
+		<name>Toweya</name>
+	</spider>
 </data>
