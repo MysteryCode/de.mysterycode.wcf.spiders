@@ -6,16 +6,21 @@
 		<packagename language="de"><![CDATA[Benutzerdefinierte Spider-Liste]]></packagename>
 		<packagedescription><![CDATA[spiders]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Suchmaschinenroboter]]></packagedescription>
-		<version>1.1.0</version>
-		<date>2016-12-15</date>
+		<version>1.1.1</version>
+		<date>2017-11-29</date>
 	</packageinformation>
+
+	<compatibility>
+		<api version="2018" />
+		<api version="2017" />
+	</compatibility>
 	
 	<requiredpackages>
-		<requiredpackage minversion="3.0.0 RC 1"><![CDATA[com.woltlab.wcf]]></requiredpackage>
+		<requiredpackage minversion="3.0.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
 	</requiredpackages>
 	
 	<excludedpackages>
-		<excludedpackage version="3.1.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
+		<excludedpackage version="3.2.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
 	</excludedpackages>
 	
 	<authorinformation>
@@ -46,9 +51,16 @@
 	<instructions type="update" fromversion="1.0.1">
 		<!-- files -->
 		<instruction type="file" />
-		
+
 		<!-- XMLs -->
 		<instruction type="eventListener">xml/eventListener.xml</instruction>
 		<instruction type="cronjob">xml/cronjob.xml</instruction>
+	</instructions>
+	<instructions type="update" fromversion="1.1.0">
+		<!-- files -->
+		<instruction type="file" />
+
+		<!-- XMLs -->
+		<instruction type="eventListener">xml/eventListener.xml</instruction>
 	</instructions>
 </package>

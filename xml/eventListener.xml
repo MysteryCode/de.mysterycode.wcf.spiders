@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE xml>
-<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://mysterycode.de/XSD/eventListener.xsd">
-	<import>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/vortex/eventListener.xsd">
+	<delete>
 		<eventlistener name="uninstallPackageAction">
 			<eventclassname>wcf\acp\action\UninstallPackageAction</eventclassname>
 			<eventname>execute</eventname>
 			<listenerclassname>wcf\system\event\listener\MysteryCodeSpiderRefreshUninstallListener</listenerclassname>
 			<environment>admin</environment>
 		</eventlistener>
-	</import>
+	</delete>
 </data>
