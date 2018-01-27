@@ -108,4 +108,16 @@
 	<spider ident="Toweya.com bot">
 		<name>Toweya</name>
 	</spider>
+	<spider ident="special_archiver">
+		<name>Archive.org</name>
+		<url>http://www.archive.org/details/archive.org_bot</url>
+	</spider>
+	<spider ident="archive.org_bot">
+		<name>Archive.org</name>
+		<url>http://www.archive.org/details/archive.org_bot</url>
+	</spider>
+	<spider ident="SMTBot">
+		<name>SMTBot</name>
+		<url>http://www.similartech.com/smtbot</url>
+	</spider>
 </data>
