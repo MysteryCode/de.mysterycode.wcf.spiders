@@ -6,8 +6,8 @@
 		<packagename language="de"><![CDATA[Benutzerdefinierte Spider-Liste]]></packagename>
 		<packagedescription><![CDATA[spiders]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Suchmaschinenroboter]]></packagedescription>
-		<version>1.1.1</version>
-		<date>2017-11-29</date>
+		<version>1.1.2</version>
+		<date>2018-01-27</date>
 	</packageinformation>
 
 	<compatibility>
@@ -18,10 +18,6 @@
 	<requiredpackages>
 		<requiredpackage minversion="3.0.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
 	</requiredpackages>
-	
-	<excludedpackages>
-		<excludedpackage version="3.2.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
-	</excludedpackages>
 	
 	<authorinformation>
 		<author><![CDATA[Florian Gail]]></author>
@@ -62,5 +58,9 @@
 
 		<!-- XMLs -->
 		<instruction type="eventListener">xml/eventListener.xml</instruction>
+	</instructions>
+	<instructions type="update" fromversion="1.1.1">
+		<!-- files -->
+		<instruction type="file" />
 	</instructions>
 </package>

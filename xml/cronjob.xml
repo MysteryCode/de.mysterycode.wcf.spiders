@@ -14,9 +14,4 @@
 			<canbedisabled>1</canbedisabled>
 		</cronjob>
 	</import>
-	<delete>
-		<cronjob>
-			<classname>wcf\system\cronjob\MysteryCodeSpiderRefreshCronjob</classname>
-		</cronjob>
-	</delete>
 </data>
