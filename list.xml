@@ -120,4 +120,8 @@
 		<name>SMTBot</name>
 		<url>http://www.similartech.com/smtbot</url>
 	</spider>
+	<spider ident="BUbiNG">
+		<name>BUbiNG</name>
+		<url>http://law.di.unimi.it/BUbiNG.html</url>
+	</spider>
 </data>
