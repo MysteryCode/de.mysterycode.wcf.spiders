@@ -124,4 +124,8 @@
 		<name>BUbiNG</name>
 		<url>http://law.di.unimi.it/BUbiNG.html</url>
 	</spider>
+	<spider ident="MJ12bot">
+		<name>Majestic</name>
+		<url>http://mj12bot.com/</url>
+	</spider>
 </data>
