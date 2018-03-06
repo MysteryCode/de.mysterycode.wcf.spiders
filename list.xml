@@ -128,4 +128,8 @@
 		<name>Majestic</name>
 		<url>http://mj12bot.com/</url>
 	</spider>
+	<spider ident="RankingBot2">
+		<name>Varocarbas RankingBot 2</name>
+		<url>https://varocarbas.com/bot_ranking2/</url>
+	</spider>
 </data>
