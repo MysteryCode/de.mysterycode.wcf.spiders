@@ -132,4 +132,7 @@
 		<name>Varocarbas RankingBot 2</name>
 		<url>https://varocarbas.com/bot_ranking2/</url>
 	</spider>
+	<spider ident="adscanner">
+		<name>Adscanner</name>
+	</spider>
 </data>
