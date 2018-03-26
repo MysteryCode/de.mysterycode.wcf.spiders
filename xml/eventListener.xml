@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/vortex/eventListener.xsd">
+	<import>
+		<eventlistener name="hideUserAgents">
+			<eventclassname>wcf\page\UsersOnlineListPage</eventclassname>
+			<eventname>afterInitObjectList</eventname>
+			<listenerclassname>wcf\system\event\listener\HideUserAgentsUserOnlineListListener</listenerclassname>
+			<environment>user</environment>
+			<inherit>1</inherit>
+		</eventlistener>
+	</import>
 	<delete>
 		<eventlistener name="uninstallPackageAction">
 			<eventclassname>wcf\acp\action\UninstallPackageAction</eventclassname>
