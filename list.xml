@@ -135,4 +135,19 @@
 	<spider ident="adscanner">
 		<name>Adscanner</name>
 	</spider>
+	<spider ident="YandexBot">
+		<name>Yandex</name>
+	</spider>
+	<spider ident="bingbot">
+		<name>Bing</name>
+	</spider>
+	<spider ident="Applebot">
+		<name>Applebot</name>
+	</spider>
+	<spider ident="DuckDuckBot">
+		<name>DuckDuckGo</name>
+	</spider>
+	<spider ident="Discordbot">
+		<name>Discord</name>
+	</spider>
 </data>
