@@ -6,6 +6,7 @@
 			<eventname>afterInitObjectList</eventname>
 			<listenerclassname>wcf\system\event\listener\HideUserAgentsUserOnlineListListener</listenerclassname>
 			<environment>user</environment>
+			<options>blacklist_user_agents_hide_from_onlinelist</options>
 			<inherit>1</inherit>
 		</eventlistener>
 	</import>
