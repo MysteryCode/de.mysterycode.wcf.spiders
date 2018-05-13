@@ -150,4 +150,8 @@
 	<spider ident="Discordbot">
 		<name>Discord</name>
 	</spider>
+	<spider ident="Google Font Detection">
+		<name>Google Font Detection</name>
+		<url>https://www.softcreatr.de/gfd.php</url>
+	</spider>
 </data>
