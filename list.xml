@@ -154,4 +154,7 @@
 		<name>Google Font Detection</name>
 		<url>https://www.softcreatr.de/gfd.php</url>
 	</spider>
+	<spider ident="TelegramBot (like TwitterBot)">
+		<name>TelegramBot (like TwitterBot)</name>
+	</spider>
 </data>
