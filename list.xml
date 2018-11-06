@@ -69,6 +69,7 @@
 	</spider>
 	<spider ident="SkypeUriPreview">
 		<name>Skype Preview</name>
+		<url>https://www.skype.com/de/</url>
 	</spider>
 	<spider ident="netEstate NE Crawler">
 		<name>netEstate NE Crawler</name>
@@ -84,6 +85,7 @@
 	</spider>
 	<spider ident="Twitterbot">
 		<name>Twitterbot</name>
+		<url>https://twitter.com/</url>
 	</spider>
 	<spider ident="GoogleStackdriverMonitoring">
 		<name>Google Stackdriver Monitoring</name>
@@ -137,18 +139,22 @@
 	</spider>
 	<spider ident="YandexBot">
 		<name>Yandex</name>
+		<url>https://www.yandex.com/</url>
 	</spider>
 	<spider ident="bingbot">
 		<name>Bing</name>
+		<url>https://www.bing.com/</url>
 	</spider>
 	<spider ident="Applebot">
 		<name>Applebot</name>
 	</spider>
 	<spider ident="DuckDuckBot">
 		<name>DuckDuckGo</name>
+		<url>https://duckduckgo.com/</url>
 	</spider>
 	<spider ident="Discordbot">
 		<name>Discord</name>
+		<url>https://discordapp.com/</url>
 	</spider>
 	<spider ident="Google Font Detection">
 		<name>Google Font Detection</name>
@@ -156,5 +162,6 @@
 	</spider>
 	<spider ident="TelegramBot (like TwitterBot)">
 		<name>TelegramBot (like TwitterBot)</name>
+		<url>https://telegram.org/</url>
 	</spider>
 </data>
