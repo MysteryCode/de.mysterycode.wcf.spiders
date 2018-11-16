@@ -161,7 +161,7 @@
 		<url>https://www.softcreatr.de/gfd.php</url>
 	</spider>
 	<spider ident="TelegramBot (like TwitterBot)">
-		<name>TelegramBot (like TwitterBot)</name>
+		<name>TelegramBot</name>
 		<url>https://telegram.org/</url>
 	</spider>
 </data>
