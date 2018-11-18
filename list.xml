@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/spiderList.xsd">
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://static.mysterycode.de/XSD/spiderList.xsd">
 	<spider ident="SemrushBot">
 		<name>SemrushBot</name>
 		<url>http://semrush.com/bot/</url>
@@ -163,5 +163,101 @@
 	<spider ident="TelegramBot (like TwitterBot)">
 		<name>TelegramBot</name>
 		<url>https://telegram.org/</url>
+	</spider>
+
+	<spider ident="Pinterest">
+		<name>Pinterest Bot</name>
+		<url>http://www.pinterest.com/</url>
+	</spider>
+	<spider ident="Google Favicon">
+		<name>Google Favicon Crawler</name>
+	</spider>
+	<spider ident="DuckDuckGo-Favicons-Bot">
+		<name>DuckDuckGo Favicons Bot</name>
+		<url>http://duckduckgo.com</url>
+	</spider>
+	<spider ident="Pinterestbot">
+		<name>Ponterest Bot</name>
+		<url>http://www.pinterest.com/bot.html</url>
+	</spider>
+	<spider ident="Yahoo! Slurp">
+		<name>Yahoo! Slurp</name>
+		<url>http://help.yahoo.com/help/us/ysearch/slurp</url>
+	</spider>
+	<spider ident="Mediapartners-Google">
+		<name>Google's Media Partners system (AdSense)</name>
+	</spider>
+	<spider ident="proximic">
+		<name>Proximic Search</name>
+		<url>http://www.proximic.com/info/spider.php</url>
+	</spider>
+	<spider ident="Sogou web spider">
+		<name>Sogou "Search Dog"</name>
+		<url>http://www.sogou.com/docs/help/webmasters.htm#07</url>
+	</spider>
+	<spider ident="Slackbot-LinkExpanding">
+		<name>Slackbot Link Checker</name>
+		<url>https://api.slack.com/robots</url>
+	</spider>
+	<spider ident="80legs">
+		<name>80legs Web Crawler </name>
+		<url>http://www.80legs.com/webcrawler.html</url>
+	</spider>
+	<spider ident="AbachoBOT">
+		<name>Abacho Crawler</name>
+	</spider>
+	<spider ident="admantx">
+		<name>ADmantX Platform Semantic Analyzer</name>
+		<url>http://www.admantx.com/service-fetcher.html</url>
+	</spider>
+	<spider ident="Squider">
+		<name>Squider Bot</name>
+	</spider>
+	<spider ident="evaliant">
+		<name>Evaliant Impressions Bot</name>
+	</spider>
+	<spider ident="ia_archiver">
+		<name>Alexa</name>
+		<url>http://www.alexa.com/site/help/webmasters</url>
+	</spider>
+	<spider ident="alexa site audit">
+		<name>Alexa Site Audit</name>
+		<url>http://www.alexa.com/help/webmasters</url>
+	</spider>
+	<spider ident="Baiduspider-image">
+		<name>Baidu Image Spider</name>
+		<url>http://www.baidu.com/search/spider.htm</url>
+	</spider>
+	<spider ident="BecomeBot">
+		<name>Become.com</name>
+		<url>http://www.become.com/site_owners.html</url>
+	</spider>
+	<spider ident="BingPreview">
+		<name>BingPreview</name>
+	</spider>
+	<spider ident="bitlybot">
+		<name>Bit.ly Link Checker</name>
+		<url>http://bit.ly/</url>
+	</spider>
+	<spider ident="BlitzBOT">
+		<name>BlitzBot</name>
+	</spider>
+	<spider ident="boitho">
+		<name>Boitho</name>
+		<url>http://www.boitho.com/dcbot.html</url>
+	</spider>
+	<spider ident="CareerBot">
+		<name>CareerBot</name>
+		<url>http://www.career-x.de/bot.html</url>
+	</spider>
+	<spider ident="CatchBot">
+		<name>CatchBot</name>
+		<url>http://www.catchbot.com</url>
+	</spider>
+	<spider ident="SurveyBot">
+		<name>DomainTools SurveyBot</name>
+	</spider>
+	<spider ident="googleimageproxy">
+		<name>Google Image Proxy</name>
 	</spider>
 </data>
