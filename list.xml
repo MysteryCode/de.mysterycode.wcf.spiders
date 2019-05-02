@@ -260,4 +260,12 @@
 	<spider ident="googleimageproxy">
 		<name>Google Image Proxy</name>
 	</spider>
+	<spider ident="AwarioRssBot">
+		<name>Awario</name>
+		<url>https://awario.com/bots.html</url>
+	</spider>
+	<spider ident="AwarioSmartBot">
+		<name>Awario</name>
+		<url>https://awario.com/bots.html</url>
+	</spider>
 </data>
