@@ -2,7 +2,7 @@
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://static.mysterycode.de/XSD/spiderList.xsd">
 	<spider ident="SemrushBot">
 		<name>SemrushBot</name>
-		<url>http://semrush.com/bot/</url>
+		<url>http://www.semrush.com/bot.html</url>
 	</spider>
 	<spider ident="UptimeRobot/2.0">
 		<name>UptimeRobot</name>
@@ -33,15 +33,15 @@
 		<name>XoviBot</name>
 		<url>http://www.xovibot.net/</url>
 	</spider>
-	<spider ident="Qwantify/2.2w">
+	<spider ident="Qwantify">
 		<name>Qwant</name>
-		<url>https://www.qwant.com/</url>
+		<url>https://help.qwant.com/bot</url>
 	</spider>
 	<spider ident="SEOkicks-Robot">
 		<name>SEOkicks</name>
 		<url>http://www.seokicks.de/robot.html</url>
 	</spider>
-	<spider ident="seoscanners.net">
+	<spider ident="seoscanners">
 		<name>seoscanners.net</name>
 	</spider>
 	<spider ident="DotBot">
@@ -191,9 +191,24 @@
 		<name>Proximic Search</name>
 		<url>http://www.proximic.com/info/spider.php</url>
 	</spider>
+	<spider ident="Sogou Pic spider">
+		<name>Sogou "Search Dog"</name>
+		<url>https://www.sogou.com/docs/help/webmasters.htm#07</url>
+	</spider>
+	<spider ident="Sogou head spider">
+		<name>Sogou "Search Dog"</name>
+		<url>https://www.sogou.com/docs/help/webmasters.htm#07</url>
+	</spider>
+	<spider ident="Sogou Orion spider">
+		<name>Sogou "Search Dog"</name>
+		<url>https://www.sogou.com/docs/help/webmasters.htm#07</url>
+	</spider>
+	<spider ident="Sogou-Test-Spider">
+		<name>Sogou "Search Dog"</name>
+	</spider>
 	<spider ident="Sogou web spider">
 		<name>Sogou "Search Dog"</name>
-		<url>http://www.sogou.com/docs/help/webmasters.htm#07</url>
+		<url>https://www.sogou.com/docs/help/webmasters.htm#07</url>
 	</spider>
 	<spider ident="Slackbot-LinkExpanding">
 		<name>Slackbot Link Checker</name>
@@ -218,15 +233,19 @@
 	</spider>
 	<spider ident="ia_archiver">
 		<name>Alexa</name>
-		<url>http://www.alexa.com/site/help/webmasters</url>
+		<url>https://www.alexa.com/site/help/webmasters</url>
 	</spider>
 	<spider ident="alexa site audit">
 		<name>Alexa Site Audit</name>
-		<url>http://www.alexa.com/help/webmasters</url>
+		<url>https://www.alexa.com/help/webmasters</url>
 	</spider>
 	<spider ident="Baiduspider-image">
 		<name>Baidu Image Spider</name>
 		<url>http://www.baidu.com/search/spider.htm</url>
+	</spider>
+	<spider ident="Baiduspider">
+		<name>Baidu Spider</name>
+		<url>http://www.baidu.com/search/spider.html</url>
 	</spider>
 	<spider ident="BecomeBot">
 		<name>Become.com</name>
@@ -267,5 +286,65 @@
 	<spider ident="AwarioSmartBot">
 		<name>Awario</name>
 		<url>https://awario.com/bots.html</url>
+	</spider>
+	<spider ident="AhrefsBot">
+		<name>AhrefsBot</name>
+		<url>http://ahrefs.com/robot/</url>
+	</spider>
+	<spider ident="waybackarchive">
+		<name>Wayback Machine</name>
+		<url>https://web.archive.org/</url>
+	</spider>
+	<spider ident="FeedFetcher-Google">
+		<name>Google FeedFetcher</name>
+		<url>http://www.google.com/feedfetcher.html</url>
+	</spider>
+	<spider ident="Google-Read-Aloud">
+		<name>Google Read Aloud</name>
+		<url>https://support.google.com/webmasters/answer/1061943</url>
+	</spider>
+	<spider ident="Mediapartners-Google">
+		<name>Google AdSense</name>
+	</spider>
+	<spider ident="AdsBot-Google-Mobile">
+		<name>Google AdsBot Mobile</name>
+		<url>http://www.google.com/mobile/adsbot.html</url>
+	</spider>
+	<spider ident="AdsBot-Google">
+		<name>Google AdsBot</name>
+		<url>http://www.google.com/adsbot.html</url>
+	</spider>
+	<spider ident="APIs-Google ">
+		<name>APIs Google</name>
+		<url>https://developers.google.com/webmasters/APIs-Google.html</url>
+	</spider>
+	<spider ident="ExaBot">
+		<name>ExaLead Crawler</name>
+		<url>http://www.exabot.com/go/robot</url>
+	</spider>
+	<spider ident="Konqueror">
+		<name>ExaLead Crawler Thumbnails</name>
+		<url>http://www.exabot.com/go/robot</url>
+	</spider>
+	<spider ident="Jyxobot">
+		<name>Jyxo.cz Crawler</name>
+	</spider>
+	<spider ident="FAST Enterprise Crawler">
+		<name>FAST Enterprise Crawler</name>
+		<url>http://www.scirus.com/srsapp/contactus/</url>
+	</spider>
+	<spider ident="ZoominfoBot">
+		<name>Zoom Info Bot</name>
+	</spider>
+	<spider ident="panscient.com">
+		<name>Panscient Crawler</name>
+	</spider>
+	<spider ident="Charlotte">
+		<name>Charlotte</name>
+		<url>https://www.searchme.com/support/</url>
+	</spider>
+	<spider ident="Sosospider">
+		<name>Sosospider</name>
+		<url>http://help.soso.com/webspider.htm</url>
 	</spider>
 </data>
