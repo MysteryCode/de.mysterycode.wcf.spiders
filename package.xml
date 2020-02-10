@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package name="de.mysterycode.wcf.spiders" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://mysterycode.de/XSD/package.xsd">
 	<packageinformation>
-		<packagename><![CDATA[Custom SpiderList]]></packagename>
+		<packagename><![CDATA[Custom list of spiders]]></packagename>
 		<packagename language="de"><![CDATA[Benutzerdefinierte Spider-Liste]]></packagename>
 		<packagedescription><![CDATA[spiders]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Suchmaschinenroboter]]></packagedescription>
-		<version>1.1.3 pl 1</version>
-		<date>2018-05-02</date>
+		<version>1.1.4</version>
+		<date>2020-02-10</date>
 	</packageinformation>
-
+	
 	<compatibility>
+		<api version="2019" />
 		<api version="2018" />
 		<api version="2017" />
 	</compatibility>
@@ -17,6 +18,10 @@
 	<requiredpackages>
 		<requiredpackage minversion="3.0.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
 	</requiredpackages>
+	
+	<excludedpackages>
+		<excludedpackage version="6.0.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
+	</excludedpackages>
 	
 	<authorinformation>
 		<author><![CDATA[Florian Gail]]></author>
@@ -28,76 +33,26 @@
 		<instruction type="file" />
 		
 		<!-- XMLs -->
-		<instruction type="eventListener">xml/eventListener.xml</instruction>
-		<instruction type="cronjob">xml/cronjob.xml</instruction>
-		<instruction type="option">xml/option.xml</instruction>
-
+		<instruction type="eventListener" />
+		<instruction type="cronjob" />
+		<instruction type="option" />
+		
 		<!-- script -->
 		<instruction type="script">acp/install_de.mysterycode.wcf.spiders.php</instruction>
-
+		
 		<!-- language -->
 		<instruction type="language" />
 	</instructions>
 	
-	<instructions type="update" fromversion="1.0.0">
+	<instructions type="update" fromversion="1.1.3 pl 1">
 		<!-- files -->
 		<instruction type="file" />
 		
 		<!-- XMLs -->
-		<instruction type="eventListener">xml/eventListener.xml</instruction>
-		<instruction type="cronjob">xml/cronjob.xml</instruction>
-		<instruction type="option">xml/option.xml</instruction>
-
+		<instruction type="eventListener" />
+		<instruction type="option" />
+		
 		<!-- language -->
 		<instruction type="language" />
-	</instructions>
-	<instructions type="update" fromversion="1.0.1">
-		<!-- files -->
-		<instruction type="file" />
-
-		<!-- XMLs -->
-		<instruction type="eventListener">xml/eventListener.xml</instruction>
-		<instruction type="cronjob">xml/cronjob.xml</instruction>
-		<instruction type="option">xml/option.xml</instruction>
-
-		<!-- language -->
-		<instruction type="language" />
-	</instructions>
-	<instructions type="update" fromversion="1.1.0">
-		<!-- files -->
-		<instruction type="file" />
-
-		<!-- XMLs -->
-		<instruction type="eventListener">xml/eventListener.xml</instruction>
-		<instruction type="option">xml/option.xml</instruction>
-
-		<!-- language -->
-		<instruction type="language" />
-	</instructions>
-	<instructions type="update" fromversion="1.1.1">
-		<!-- files -->
-		<instruction type="file" />
-
-		<!-- XMLs -->
-		<instruction type="eventListener">xml/eventListener.xml</instruction>
-		<instruction type="option">xml/option.xml</instruction>
-
-		<!-- language -->
-		<instruction type="language" />
-	</instructions>
-	<instructions type="update" fromversion="1.1.2">
-		<!-- files -->
-		<instruction type="file" />
-
-		<!-- XMLs -->
-		<instruction type="eventListener">xml/eventListener.xml</instruction>
-		<instruction type="option">xml/option.xml</instruction>
-
-		<!-- language -->
-		<instruction type="language" />
-	</instructions>
-	<instructions type="update" fromversion="1.1.3">
-		<!-- XMLs -->
-		<instruction type="eventListener">xml/eventListener.xml</instruction>
 	</instructions>
 </package>
