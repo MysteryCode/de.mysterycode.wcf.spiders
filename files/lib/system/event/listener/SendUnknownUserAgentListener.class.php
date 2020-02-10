@@ -17,8 +17,9 @@ class SendUnknownUserAgentListener implements IParameterizedEventListener {
 		/** @var AbstractPage $eventObj */
 		
 		if (!WCF::getUser()->userID && !WCF::getSession()->spiderID && USERS_ONLINE_SEND_UNKNOWN_USERAGENTS) {
-			$profile = new UserOnline(WCF::getUser());
 			$userAgent = UserUtil::getUserAgent();
+			$profile = new UserOnline(WCF::getUser());
+			$profile->userAgent = $userAgent;
 			
 			if ($userAgent == $profile->getBrowser() && !preg_match('/(WoltLab (Suite|Community Framework)|WSC-Connect|shoWWelle)/', $userAgent)) {
 				BackgroundQueueHandler::getInstance()->enqueueIn([
