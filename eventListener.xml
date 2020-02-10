@@ -9,6 +9,21 @@
 			<options>blacklist_user_agents_hide_from_onlinelist</options>
 			<inherit>1</inherit>
 		</eventlistener>
+		
+		<eventlistener name="disableWoltLabCronjob">
+			<eventclassname>wcf\system\cronjob\RefreshSearchRobotsCronjob</eventclassname>
+			<eventname>execute</eventname>
+			<listenerclassname>wcf\system\event\listener\DisableRefreshSearchRobotsCronjobListener</listenerclassname>
+			<environment>user</environment>
+			<inherit>1</inherit>
+		</eventlistener>
+		<eventlistener name="disableWoltLabCronjobAdmin">
+			<eventclassname>wcf\system\cronjob\RefreshSearchRobotsCronjob</eventclassname>
+			<eventname>execute</eventname>
+			<listenerclassname>wcf\system\event\listener\DisableRefreshSearchRobotsCronjobListener</listenerclassname>
+			<environment>admin</environment>
+			<inherit>1</inherit>
+		</eventlistener>
 	</import>
 	<delete>
 		<eventlistener name="uninstallPackageAction">
