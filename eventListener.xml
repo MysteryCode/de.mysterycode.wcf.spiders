@@ -24,6 +24,21 @@
 			<environment>admin</environment>
 			<inherit>1</inherit>
 		</eventlistener>
+		
+		<eventlistener name="getBrowser">
+			<eventclassname>wcf\data\user\online\UserOnline</eventclassname>
+			<eventname>getBrowser</eventname>
+			<listenerclassname>wcf\system\event\listener\ParseCustomUserAgentsListener</listenerclassname>
+			<environment>user</environment>
+			<inherit>1</inherit>
+		</eventlistener>
+		<eventlistener name="getBrowserAdmin">
+			<eventclassname>wcf\data\user\online\UserOnline</eventclassname>
+			<eventname>getBrowser</eventname>
+			<listenerclassname>wcf\system\event\listener\ParseCustomUserAgentsListener</listenerclassname>
+			<environment>admin</environment>
+			<inherit>1</inherit>
+		</eventlistener>
 	</import>
 	<delete>
 		<eventlistener name="uninstallPackageAction">
