@@ -1,6 +1,7 @@
 <?php
 
 namespace wcf\system\cronjob;
+
 use wcf\data\cronjob\Cronjob;
 use wcf\system\cache\builder\SpiderCacheBuilder;
 use wcf\system\exception\SystemException;
@@ -15,11 +16,9 @@ use wcf\util\XML;
  * @see		\wcf\system\cronjob\RefreshSearchRobotsCronjob
  * @copyright	2001-2015 WoltLab GmbH
  * @license	GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>
- * @package	com.woltlab.wcf
- * @subpackage	system.cronjob
- * @category	Community Framework
+ * @package	WoltLabSuite\Core\System\Cronjob
  */
-class MysteryCodeSpiderRefreshCronjob implements ICronjob {
+class MysteryCodeSpiderRefreshCronjob extends AbstractCronjob {
 	/**
 	 * URLs of spiderList.xml-files
 	 * @var string[]
@@ -39,6 +38,8 @@ class MysteryCodeSpiderRefreshCronjob implements ICronjob {
 	 * @inheritDoc
 	 */
 	public function execute(Cronjob $cronjob) {
+		parent::execute($cronjob);
+		
 		$existingSpiders = SpiderCacheBuilder::getInstance()->getData();
 		
 		foreach ($this->spiderLists as $spiderList) {
@@ -65,6 +66,7 @@ class MysteryCodeSpiderRefreshCronjob implements ICronjob {
 			$spiders = $xpath->query('/ns:data/ns:spider');
 			
 			if (!empty($spiders)) {
+				/** @var \DOMElement $spider */
 				foreach ($spiders as $spider) {
 					$identifier = mb_strtolower($spider->getAttribute('ident'));
 					$name = $xpath->query('ns:name', $spider)->item(0);
@@ -83,12 +85,11 @@ class MysteryCodeSpiderRefreshCronjob implements ICronjob {
 		}
 			
 		if (!empty($this->fetchedSpiders)) {
-			$sql = "INSERT INTO	wcf".WCF_N."_spider
-				(spiderIdentifier, spiderName, spiderURL)
-				VALUES (?, ?, ?)
-				ON DUPLICATE KEY UPDATE
-					spiderName = VALUES(spiderName),
-					spiderURL = VALUES(spiderURL)";
+			$sql = "INSERT INTO			wcf".WCF_N."_spider
+								(spiderIdentifier, spiderName, spiderURL)
+				VALUES				(?, ?, ?)
+				ON DUPLICATE KEY UPDATE		spiderName = VALUES(spiderName),
+								spiderURL = VALUES(spiderURL)";
 			$statement = WCF::getDB()->prepareStatement($sql);
 			
 			WCF::getDB()->beginTransaction();
