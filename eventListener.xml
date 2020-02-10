@@ -39,6 +39,15 @@
 			<environment>admin</environment>
 			<inherit>1</inherit>
 		</eventlistener>
+		
+		<eventlistener name="enqueueSendUserAgent">
+			<eventclassname>wcf\page\AbstractPage</eventclassname>
+			<eventname>show</eventname>
+			<listenerclassname>wcf\system\event\listener\SendUnknownUserAgentListener</listenerclassname>
+			<environment>user</environment>
+			<options>users_online_send_unknown_useragents</options>
+			<inherit>1</inherit>
+		</eventlistener>
 	</import>
 	<delete>
 		<eventlistener name="uninstallPackageAction">

@@ -2,5 +2,7 @@
 <language languagecode="en" countrycode="gb" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/vortex/language.xsd">
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.blacklist_user_agents_hide_from_onlinelist"><![CDATA[Hide UserAgents from UsersOnlineList]]></item>
+		<item name="wcf.acp.option.users_online_send_unknown_useragents"><![CDATA[Submit unknown user-agents to MysteryCode.de]]></item>
+		<item name="wcf.acp.option.users_online_send_unknown_useragents.description"><![CDATA[If you enable this option, the full user-agent-strings will be submitted to MysteryCode.de automatically, if they don't match any known browser or spider. IP-addresses, username and other user related data won't be transmitted.]]></item>
 	</category>
 </language>
