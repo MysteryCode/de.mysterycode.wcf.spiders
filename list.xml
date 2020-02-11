@@ -371,4 +371,8 @@
 		<name>ToutiaoSpider</name>
 		<url>https://www.toutiao.com/media_cooperation/</url>
 	</spider>
+	<spider ident="serpstatbot">
+		<name>SerpStat Bot (advanced backlink tracking bot)</name>
+		<url>https://serpstatbot.com/</url>
+	</spider>
 </data>
