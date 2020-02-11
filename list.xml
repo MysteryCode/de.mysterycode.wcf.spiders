@@ -351,4 +351,8 @@
 		<name>babbar</name>
 		<url>https://babbar.tech/crawler</url>
 	</spider>
+	<spider ident="Buck">
+		<name>Buck Media Monitoring</name>
+		<url>https://app.hypefactors.com/media-monitoring/about.html</url>
+	</spider>
 </data>
