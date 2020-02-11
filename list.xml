@@ -359,4 +359,8 @@
 		<name>Coc Coc robot</name>
 		<url>http://help.coccoc.com/searchengine</url>
 	</spider>
+	<spider ident="MojeekBot">
+		<name>MojeekBot</name>
+		<url>https://www.mojeek.com/bot.html</url>
+	</spider>
 </data>
