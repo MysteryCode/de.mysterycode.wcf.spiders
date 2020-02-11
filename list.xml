@@ -347,4 +347,8 @@
 		<name>Sosospider</name>
 		<url>http://help.soso.com/webspider.htm</url>
 	</spider>
+	<spider ident="Barkrowler">
+		<name>babbar</name>
+		<url>https://babbar.tech/crawler</url>
+	</spider>
 </data>
