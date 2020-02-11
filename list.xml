@@ -355,4 +355,8 @@
 		<name>Buck Media Monitoring</name>
 		<url>https://app.hypefactors.com/media-monitoring/about.html</url>
 	</spider>
+	<spider ident="coccocbot">
+		<name>Coc Coc robot</name>
+		<url>http://help.coccoc.com/searchengine</url>
+	</spider>
 </data>
