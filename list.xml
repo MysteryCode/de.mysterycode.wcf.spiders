@@ -378,4 +378,7 @@
 	<spider ident="SMUrlExpander">
 		<name>SMUrlExpander</name>
 	</spider>
+	<spider ident="Internet-structure-research-project-bot">
+		<name>internet structure research project</name>
+	</spider>
 </data>
