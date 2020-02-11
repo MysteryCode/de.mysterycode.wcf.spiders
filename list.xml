@@ -367,4 +367,8 @@
 		<name>Nimbostratus-Bot</name>
 		<url>http://cloudsystemnetworks.com</url>
 	</spider>
+	<spider ident="ToutiaoSpider">
+		<name>ToutiaoSpider</name>
+		<url>https://www.toutiao.com/media_cooperation/</url>
+	</spider>
 </data>
