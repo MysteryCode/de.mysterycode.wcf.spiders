@@ -375,4 +375,7 @@
 		<name>SerpStat Bot (advanced backlink tracking bot)</name>
 		<url>https://serpstatbot.com/</url>
 	</spider>
+	<spider ident="SMUrlExpander">
+		<name>SMUrlExpander</name>
+	</spider>
 </data>
