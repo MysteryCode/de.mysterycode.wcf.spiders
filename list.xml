@@ -363,4 +363,8 @@
 		<name>MojeekBot</name>
 		<url>https://www.mojeek.com/bot.html</url>
 	</spider>
+	<spider ident="Nimbostratus">
+		<name>Nimbostratus-Bot</name>
+		<url>http://cloudsystemnetworks.com</url>
+	</spider>
 </data>
