@@ -16,7 +16,7 @@ class SendUnknownUserAgentListener implements IParameterizedEventListener {
 	public function execute($eventObj, $className, $eventName, array &$parameters) {
 		/** @var AbstractPage $eventObj */
 		
-		if (!WCF::getUser()->userID && !WCF::getSession()->spiderID && USERS_ONLINE_SEND_UNKNOWN_USERAGENTS) {
+		if (USERS_ONLINE_SEND_UNKNOWN_USERAGENTS && !WCF::getUser()->userID && !WCF::getSession()->spiderID && !WCF::getSession()->getVar('userAgentSpiderDetectionHelper')) {
 			$userAgent = UserUtil::getUserAgent();
 			$profile = new UserOnline(WCF::getUser());
 			$profile->userAgent = $userAgent;
@@ -26,6 +26,7 @@ class SendUnknownUserAgentListener implements IParameterizedEventListener {
 					new RegisterUnknownUserAgentBackgroundJob($userAgent)
 				]);
 			}
+			WCF::getSession()->register('userAgentSpiderDetectionHelper', $userAgent);
 		}
 		
 	}
