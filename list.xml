@@ -467,4 +467,8 @@
 		<name>Yahoo Ad monitoring</name>
 		<url>https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html</url>
 	</spider>
+	<spider ident="YaK">
+		<name>linkfluence</name>
+		<url>http://linkfluence.com/</url>
+	</spider>
 </data>
