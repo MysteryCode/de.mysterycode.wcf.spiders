@@ -428,4 +428,7 @@
 		<name>CloudFlare AlwaysOnline</name>
 		<url>http://www.cloudflare.com/always-online</url>
 	</spider>
+	<spider ident="Dataprovider.com">
+		<name>Dataprovider.com</name>
+	</spider>
 </data>
