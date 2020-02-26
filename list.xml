@@ -471,4 +471,7 @@
 		<name>linkfluence</name>
 		<url>http://linkfluence.com/</url>
 	</spider>
+	<spider ident="contxbot">
+		<name>contxbot</name>
+	</spider>
 </data>
