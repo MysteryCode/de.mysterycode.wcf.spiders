@@ -459,4 +459,8 @@
 	<spider ident="TrendsmapResolver">
 		<name>Trendsmap Resolver</name>
 	</spider>
+	<spider ident="TTD-Content">
+		<name>theTradeDesk</name>
+		<url>https://www.thetradedesk.com/general/ttd-content</url>
+	</spider>
 </data>
