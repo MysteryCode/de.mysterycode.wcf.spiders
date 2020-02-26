@@ -395,4 +395,7 @@
 		<name>DomainStats</name>
 		<url>https://domainstats.com/pages/our-bot</url>
 	</spider>
+	<spider ident="Google-AdSense-Check">
+		<name>Google AdSense</name>
+	</spider>
 </data>
