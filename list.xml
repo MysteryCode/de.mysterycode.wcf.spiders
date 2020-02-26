@@ -463,4 +463,8 @@
 		<name>theTradeDesk</name>
 		<url>https://www.thetradedesk.com/general/ttd-content</url>
 	</spider>
+	<spider ident="Yahoo Ad monitoring">
+		<name>Yahoo Ad monitoring</name>
+		<url>https://help.yahoo.com/kb/yahoo-ad-monitoring-SLN24857.html</url>
+	</spider>
 </data>
