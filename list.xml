@@ -387,4 +387,8 @@
 	<spider ident="Newsify Feed Fetcher">
 		<name>Newsify Feed Fetcher</name>
 	</spider>
+	<spider ident="datagnionbot">
+		<name>datagnion</name>
+		<url>http://www.datagnion.com/bot.html</url>
+	</spider>
 </data>
