@@ -391,4 +391,8 @@
 		<name>datagnion</name>
 		<url>http://www.datagnion.com/bot.html</url>
 	</spider>
+	<spider ident="DomainStatsBot">
+		<name>DomainStats</name>
+		<url>https://domainstats.com/pages/our-bot</url>
+	</spider>
 </data>
