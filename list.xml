@@ -485,4 +485,7 @@
 		<name>weborama</name>
 		<url>http://www.weborama.com</url>
 	</spider>
+	<spider ident="YisouSpider">
+		<name>Yisou</name>
+	</spider>
 </data>
