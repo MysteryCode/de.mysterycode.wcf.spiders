@@ -417,4 +417,7 @@
 		<name>Livelap</name>
 		<url>http://site.livelap.com/crawler</url>
 	</spider>
+	<spider ident="Attracta">
+		<name>Attracta</name>
+	</spider>
 </data>
