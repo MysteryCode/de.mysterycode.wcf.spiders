@@ -413,4 +413,8 @@
 		<name>Jugendschutzprogramm</name>
 		<url>https://www.jugendschutzprogramm.de</url>
 	</spider>
+	<spider ident="LivelapBot">
+		<name>Livelap</name>
+		<url>http://site.livelap.com/crawler</url>
+	</spider>
 </data>
