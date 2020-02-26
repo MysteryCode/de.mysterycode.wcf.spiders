@@ -434,4 +434,7 @@
 	<spider ident="Google-Site-Verification">
 		<name>Google Site Verification</name>
 	</spider>
+	<spider ident="Google-Structured-Data-Testing-Tool">
+		<name>Google Structured Data Testing Tool</name>
+	</spider>
 </data>
