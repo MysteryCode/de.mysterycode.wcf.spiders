@@ -445,4 +445,8 @@
 	<spider ident="semantic-visions.com crawler">
 		<name>Semantic Visions</name>
 	</spider>
+	<spider ident="Researchscan">
+		<name>RWTH Aachen University Research</name>
+		<url>http://researchscan.comsys.rwth-aachen.de</url>
+	</spider>
 </data>
