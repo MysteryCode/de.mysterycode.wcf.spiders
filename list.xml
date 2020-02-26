@@ -409,4 +409,8 @@
 		<name>Integral Ad Science</name>
 		<url>http://integralads.com/site-indexing-policy/</url>
 	</spider>
+	<spider ident="Jugendschutzprogramm-Crawler">
+		<name>Jugendschutzprogramm</name>
+		<url>https://www.jugendschutzprogramm.de</url>
+	</spider>
 </data>
