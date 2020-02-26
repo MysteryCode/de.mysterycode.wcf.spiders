@@ -478,4 +478,7 @@
 		<name>Moz Rogerbot</name>
 		<url>https://moz.com/help/guides/moz-procedures/what-is-rogerbot</url>
 	</spider>
+	<spider ident="Synthesio Crawler">
+		<name>Synthesio Crawler</name>
+	</spider>
 </data>
