@@ -424,4 +424,8 @@
 		<name>Veooz News Plus</name>
 		<url>http://www.veooz.com/veoozbot.html</url>
 	</spider>
+	<spider ident="CloudFlare-AlwaysOnline">
+		<name>CloudFlare AlwaysOnline</name>
+		<url>http://www.cloudflare.com/always-online</url>
+	</spider>
 </data>
