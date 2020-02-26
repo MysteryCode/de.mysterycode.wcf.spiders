@@ -481,4 +481,8 @@
 	<spider ident="Synthesio Crawler">
 		<name>Synthesio Crawler</name>
 	</spider>
+	<spider ident="weborama-fetcher">
+		<name>weborama</name>
+		<url>http://www.weborama.com</url>
+	</spider>
 </data>
