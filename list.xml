@@ -474,4 +474,8 @@
 	<spider ident="contxbot">
 		<name>contxbot</name>
 	</spider>
+	<spider ident="rogerbot">
+		<name>Moz Rogerbot</name>
+		<url>https://moz.com/help/guides/moz-procedures/what-is-rogerbot</url>
+	</spider>
 </data>
