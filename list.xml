@@ -456,4 +456,7 @@
 	<spider ident="tracemyfile">
 		<name>tracemyfile</name>
 	</spider>
+	<spider ident="TrendsmapResolver">
+		<name>Trendsmap Resolver</name>
+	</spider>
 </data>
