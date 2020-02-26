@@ -420,4 +420,8 @@
 	<spider ident="Attracta">
 		<name>Attracta</name>
 	</spider>
+	<spider ident="Veooz">
+		<name>Veooz News Plus</name>
+		<url>http://www.veooz.com/veoozbot.html</url>
+	</spider>
 </data>
