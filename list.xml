@@ -453,4 +453,7 @@
 		<name>sur.ly</name>
 		<url>http://sur.ly/bot.html</url>
 	</spider>
+	<spider ident="tracemyfile">
+		<name>tracemyfile</name>
+	</spider>
 </data>
