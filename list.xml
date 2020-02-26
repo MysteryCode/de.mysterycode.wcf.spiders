@@ -384,4 +384,7 @@
 	<spider ident="WhatsApp">
 		<name>WhatsApp Link Preview</name>
 	</spider>
+	<spider ident="Newsify Feed Fetcher">
+		<name>Newsify Feed Fetcher</name>
+	</spider>
 </data>
