@@ -401,4 +401,8 @@
 	<spider ident="Google-AdWords-Express">
 		<name>Google AdWords Express</name>
 	</spider>
+	<spider ident="GoogleProducer">
+		<name>Google Producer</name>
+		<url>http://goo.gl/7y4SX</url>
+	</spider>
 </data>
