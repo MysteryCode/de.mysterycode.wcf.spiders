@@ -431,4 +431,7 @@
 	<spider ident="Dataprovider.com">
 		<name>Dataprovider.com</name>
 	</spider>
+	<spider ident="Google-Site-Verification">
+		<name>Google Site Verification</name>
+	</spider>
 </data>
