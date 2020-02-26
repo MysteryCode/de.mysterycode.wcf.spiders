@@ -405,4 +405,8 @@
 		<name>Google Producer</name>
 		<url>http://goo.gl/7y4SX</url>
 	</spider>
+	<spider ident="IAS crawler">
+		<name>Integral Ad Science</name>
+		<url>http://integralads.com/site-indexing-policy/</url>
+	</spider>
 </data>
