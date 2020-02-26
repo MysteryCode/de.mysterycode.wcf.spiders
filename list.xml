@@ -398,4 +398,7 @@
 	<spider ident="Google-AdSense-Check">
 		<name>Google AdSense</name>
 	</spider>
+	<spider ident="Google-AdWords-Express">
+		<name>Google AdWords Express</name>
+	</spider>
 </data>
