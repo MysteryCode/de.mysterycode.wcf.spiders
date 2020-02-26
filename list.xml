@@ -381,4 +381,7 @@
 	<spider ident="Internet-structure-research-project-bot">
 		<name>internet structure research project</name>
 	</spider>
+	<spider ident="WhatsApp">
+		<name>WhatsApp Link Preview</name>
+	</spider>
 </data>
