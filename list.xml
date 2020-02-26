@@ -449,4 +449,8 @@
 		<name>RWTH Aachen University Research</name>
 		<url>http://researchscan.comsys.rwth-aachen.de</url>
 	</spider>
+	<spider ident="SurdotlyBot">
+		<name>sur.ly</name>
+		<url>http://sur.ly/bot.html</url>
+	</spider>
 </data>
