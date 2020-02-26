@@ -434,7 +434,8 @@
 	<spider ident="Google-Site-Verification">
 		<name>Google Site Verification</name>
 	</spider>
-	<spider ident="Google-Structured-Data-Testing-Tool">
-		<name>Google Structured Data Testing Tool</name>
+	<spider ident="PaperLiBot">
+		<name>paper.li</name>
+		<url>https://support.paper.li/entries/20023257-what-is-paper-li</url>
 	</spider>
 </data>
