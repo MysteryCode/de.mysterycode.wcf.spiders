@@ -25,5 +25,8 @@ class ParseCustomUserAgentsListener implements IParameterizedEventListener {
 		else if (preg_match('/com\.google\.android\.apps\.searchlite\/([0-9a-zA-Z.\+\-]+)/', $parameters['userAgent'], $matches)) {
 			$parameters['browser'] = 'Google Go' . (!empty($matches[1]) ? ' ' . $matches[1] : '');
 		}
+		else if (preg_match('/Tiny Tiny RSS\/([0-9a-zA-Z.\+\-]+)/', $parameters['userAgent'], $matches)) {
+			$parameters['browser'] = 'Tiny Tiny RSS' . (!empty($matches[1]) ? ' ' . $matches[1] : '');
+		}
 	}
 }
