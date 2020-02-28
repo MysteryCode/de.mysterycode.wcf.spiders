@@ -507,4 +507,8 @@
 		<name>See with kids</name>
 		<url>http://seewithkids.com/bot</url>
 	</spider>
+	<spider ident="Cocolyzebot">
+		<name>Cocolyze</name>
+		<url>https://cocolyze.com/bot</url>
+	</spider>
 </data>
