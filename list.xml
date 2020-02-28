@@ -488,4 +488,7 @@
 	<spider ident="YisouSpider">
 		<name>Yisou</name>
 	</spider>
+	<spider ident="SiteTruth.com">
+		<name>SiteTruth</name>
+	</spider>
 </data>
