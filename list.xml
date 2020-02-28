@@ -491,4 +491,8 @@
 	<spider ident="SiteTruth.com">
 		<name>SiteTruth</name>
 	</spider>
+	<spider ident="omgili">
+		<name>Omgili</name>
+		<url>http://omgili.com</url>
+	</spider>
 </data>
