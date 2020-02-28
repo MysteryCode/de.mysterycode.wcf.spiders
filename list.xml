@@ -503,4 +503,8 @@
 		<name>Daum</name>
 		<url>http://cs.daum.net/faq/15/4118.html?faqId=28966)</url>
 	</spider>
+	<spider ident="seewithkids.com">
+		<name>See with kids</name>
+		<url>http://seewithkids.com/bot</url>
+	</spider>
 </data>
