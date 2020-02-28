@@ -16,11 +16,11 @@ class ParseCustomUserAgentsListener implements IParameterizedEventListener {
 		else if (preg_match('/(WSC-Connect (?:API|WSC-Connect Mobile Browser))(?: |\/)([0-9a-zA-Z.\+\- ]+)/', $parameters['userAgent'], $matches)) {
 			$parameters['browser'] = $matches[1] . (!empty($matches[2]) ? ' ' . $matches[2] : '');
 		}
-		else if (preg_match('/(shoWWelle MEDIA Android-App)(?: |\/)([0-9a-zA-Z.\+\- ]+)/', $parameters['userAgent'], $matches)) {
-			$parameters['browser'] = $matches[1] . (!empty($matches[2]) ? ' ' . $matches[2] : '');
+		else if (preg_match('/shoWWelle MEDIA Android-App(?: |\/)([0-9a-zA-Z.\+\- ]+)/', $parameters['userAgent'], $matches)) {
+			$parameters['browser'] = 'shoWWelle MEDIA Android-App' . (!empty($matches[1]) ? ' ' . $matches[1] : '');
 		}
-		else if (preg_match('/(Dalvik)\/([0-9a-zA-Z.\+\-]+)/', $parameters['userAgent'], $matches)) {
-			$parameters['browser'] = $matches[1] . (!empty($matches[2]) ? ' ' . $matches[2] : '');
+		else if (preg_match('/Dalvik\/([0-9a-zA-Z.\+\-]+)/', $parameters['userAgent'], $matches)) {
+			$parameters['browser'] = 'Dalvik' . (!empty($matches[1]) ? ' ' . $matches[1] : '');
 		}
 	}
 }
