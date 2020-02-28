@@ -19,7 +19,7 @@ class ParseCustomUserAgentsListener implements IParameterizedEventListener {
 		else if (preg_match('~shoWWelle MEDIA Android-App(?: |\/)([0-9a-zA-Z.\+\- ]+)~i', $parameters['userAgent'], $matches)) {
 			$parameters['browser'] = 'shoWWelle MEDIA' . (!empty($matches[1]) ? ' ' . $matches[1] : '');
 		}
-		else if (preg_match('~Dalvik\/([0-9a-zA-Z.\+\-]+)/', $parameters['userAgent'], $matches)) {
+		else if (preg_match('~Dalvik\/([0-9a-zA-Z.\+\-]+)~i', $parameters['userAgent'], $matches)) {
 			$parameters['browser'] = 'Dalvik' . (!empty($matches[1]) ? ' ' . $matches[1] : '');
 		}
 		else if (preg_match('~com\.google\.android\.apps\.searchlite\/([0-9a-zA-Z.\+\-]+)~i', $parameters['userAgent'], $matches)) {
