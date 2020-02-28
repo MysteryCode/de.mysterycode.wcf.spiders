@@ -514,4 +514,8 @@
 	<spider ident="LinkAnalyser">
 		<name>LinkAnalyser</name>
 	</spider>
+	<spider ident="Embedly">
+		<name>Embedly</name>
+		<url>http://support.embed.ly/</url>
+	</spider>
 </data>
