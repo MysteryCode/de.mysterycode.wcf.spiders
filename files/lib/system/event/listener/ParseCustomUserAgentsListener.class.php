@@ -31,5 +31,8 @@ class ParseCustomUserAgentsListener implements IParameterizedEventListener {
 		else if (preg_match('~WordPress\/([0-9a-zA-Z.\+\-]+)~i', $parameters['userAgent'], $matches)) {
 			$parameters['browser'] = 'WordPress' . (!empty($matches[1]) ? ' ' . $matches[1] : '');
 		}
+		else if (preg_match('~XenForo\/([0-9a-zA-Z.\+\-]+)~i', $parameters['userAgent'], $matches)) {
+			$parameters['browser'] = 'XenForo' . (!empty($matches[1]) ? ' ' . $matches[1] : '');
+		}
 	}
 }
