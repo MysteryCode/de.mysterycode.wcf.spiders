@@ -495,4 +495,8 @@
 		<name>Omgili</name>
 		<url>http://omgili.com</url>
 	</spider>
+	<spider ident="VelenPublicWebCrawler">
+		<name>Velen Public Web Crawler</name>
+		<url>https://velen.io</url>
+	</spider>
 </data>
