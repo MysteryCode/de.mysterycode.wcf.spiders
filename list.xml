@@ -518,4 +518,8 @@
 		<name>Embedly</name>
 		<url>http://support.embed.ly/</url>
 	</spider>
+	<spider ident="SD4M-fetcher">
+		<name>SD4M</name>
+		<url>https://sd4m.net/</url>
+	</spider>
 </data>
