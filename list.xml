@@ -499,4 +499,8 @@
 		<name>Velen Public Web Crawler</name>
 		<url>https://velen.io</url>
 	</spider>
+	<spider ident="Daum">
+		<name>Daum</name>
+		<url>http://cs.daum.net/faq/15/4118.html?faqId=28966)</url>
+	</spider>
 </data>
