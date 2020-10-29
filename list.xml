@@ -522,4 +522,24 @@
 		<name>SD4M</name>
 		<url>https://sd4m.net/</url>
 	</spider>
+	<spider ident="DF Bot">
+		<name>DF Bot</name>
+	</spider>
+	<spider ident="inspector.opsdev.ch">
+		<name>inspector.opsdev.ch</name>
+	</spider>
+	<spider ident="facebookexternalhit">
+		<name>Facebook External Hit</name>
+		<url>http://www.facebook.com/externalhit_uatext.php</url>
+	</spider>
+	<spider ident="searchVIU.com">
+		<name>searchVIU</name>
+	</spider>
+	<spider ident="Blackboard Safeassign">
+		<name>Blackboard Safeassign</name>
+	</spider>
+	<spider ident="BacklinkCrawler">
+		<name>BacklinkCrawler</name>
+		<url>http://www.backlinktest.com/crawler.html</url>
+	</spider>
 </data>
