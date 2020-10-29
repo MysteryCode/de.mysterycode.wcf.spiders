@@ -522,4 +522,54 @@
 		<name>SD4M</name>
 		<url>https://sd4m.net/</url>
 	</spider>
+	<spider ident="DF Bot">
+		<name>DF Bot</name>
+	</spider>
+	<spider ident="inspector.opsdev.ch">
+		<name>inspector.opsdev.ch</name>
+	</spider>
+	<spider ident="facebookexternalhit">
+		<name>Facebook External Hit</name>
+		<url>http://www.facebook.com/externalhit_uatext.php</url>
+	</spider>
+	<spider ident="searchVIU.com">
+		<name>searchVIU</name>
+	</spider>
+	<spider ident="Blackboard Safeassign">
+		<name>Blackboard Safeassign</name>
+	</spider>
+	<spider ident="BacklinkCrawler">
+		<name>BacklinkCrawler</name>
+		<url>http://www.backlinktest.com/crawler.html</url>
+	</spider>
+	<spider ident="evc-batch">
+		<name>e.ventures crawler</name>
+	</spider>
+	<spider ident="Scrapy">
+		<name>Scrapy</name>
+		<url>https://scrapy.org</url>
+	</spider>
+	<spider ident="twingly">
+		<name>twingly</name>
+		<url>https://developer.twingly.com</url>
+	</spider>
+	<spider ident="crawler4j">
+		<name>crawler4j</name>
+		<url>https://github.com/yasserg/crawler4j/</url>
+	</spider>
+	<spider ident="7Siters">
+		<name>7Siters</name>
+		<url>https://7ooo.ru/siters/</url>
+	</spider>
+	<spider ident="eContext">
+		<name>eContext Classification Engine</name>
+	</spider>
+	<spider ident="WebDataStats">
+		<name>WebDataStats</name>
+		<url>https://webdatastats.com/policy.html</url>
+	</spider>
+	<spider ident="naver.me">
+		<name>naver.me</name>
+		<url>http://naver.me/spd</url>
+	</spider>
 </data>
