@@ -589,7 +589,8 @@
 		<name>Wappalyzer</name>
 	</spider>
 	<spider ident="KOCMOHABT">
-		<name>kocmohabt</name>
+		<name>KOZMONAVT</name>
+		<url>https://kozmonavt.ml/</url>
 	</spider>
 	<spider ident="SeobilityBot">
 		<name>Seobility</name>
@@ -696,5 +697,276 @@
 	<spider ident="naver.me">
 		<name>naver.me</name>
 		<url>http://naver.me/spd</url>
+	</spider>
+	<spider ident="Validator.nu">
+		<name>W3C Living Validator</name>
+		<url>https://validator.w3.org/services</url>
+	</spider>
+	<spider ident="Pandalytics">
+		<name>Pandalytics DomainsBot</name>
+		<url>https://domainsbot.com/pandalytics/</url>
+	</spider>
+	<spider ident="VsuSearchSpider">
+		<name>VSU Search Spider</name>
+	</spider>
+	<spider ident="Jeode">
+		<name>Jeode</name>
+	</spider>
+	<spider ident="ZoomBot">
+		<name>seozoom</name>
+		<url>http://suite.seozoom.it/bot.html</url>
+	</spider>
+	<spider ident="GrapeshotCrawler">
+		<name>Oracle Data Cloud Crawler</name>
+		<url>http://www.grapeshot.co.uk/crawler.php</url>
+	</spider>
+	<spider ident="lws.fr">
+		<name>LWS</name>
+	</spider>
+	<spider ident="startmebot">
+		<name>startme</name>
+		<url>https://start.me/bot</url>
+	</spider>
+	<spider ident="Grammarly">
+		<name>grammarly</name>
+		<url>http://www.grammarly.com</url>
+	</spider>
+	<spider ident="RyowlEngine">
+		<name>ryowl</name>
+		<url>https://ryowl.org</url>
+	</spider>
+	<spider ident="picTrove">
+		<name>picTrove</name>
+	</spider>
+	<spider ident="Copyright Violation [Plagiarism] Detector">
+		<name>EarwigBot - Copyright Violation [Plagiarism] Detector</name>
+		<url>https://github.com/earwig/copyvios</url>
+	</spider>
+	<spider ident="EarwigBot">
+		<name>EarwigBot</name>
+		<url>https://github.com/earwig/earwigbot</url>
+	</spider>
+	<spider ident="Elisabot">
+		<name>ElisaBot</name>
+	</spider>
+	<spider ident="COIBotParser">
+		<name>Wikipedia COIBot</name>
+		<url>https://en.wikipedia.org/wiki/User:COIBot</url>
+	</spider>
+	<spider ident="Anchorage DMP crawler">
+		<name>Anchorage DMP crawler</name>
+	</spider>
+	<spider ident="AmazonAdBot">
+		<name>Amazon AdBot</name>
+		<url>https://adbot.amazon.com</url>
+	</spider>
+	<spider ident="Semtix.cz">
+		<name>SemtixBot</name>
+		<url>https://semtix.cz/bot</url>
+	</spider>
+	<spider ident="SemtixBot">
+		<name>SemtixBot</name>
+		<url>https://semtix.cz/bot</url>
+	</spider>
+	<spider ident="gdnplus.com">
+		<name>Global Digital Network Plus</name>
+		<url>https://gdnplus.com</url>
+	</spider>
+	<spider ident="Keybot Translation-Search-Machine">
+		<name>keybot</name>
+		<url>https://www.keybot.com/</url>
+	</spider>
+	<spider ident="Re-re Studio">
+		<name>Re-re Studio</name>
+	</spider>
+	<spider ident="myseosnapshot">
+		<name>myseosnapshot</name>
+	</spider>
+	<spider ident="HuaweiWebCatBot">
+		<name>Huawei Web Categorization</name>
+		<url>https://isecurity.huawei.com/</url>
+	</spider>
+	<spider ident="GarlikCrawler">
+		<name>GarlikCrawler</name>
+		<url>http://garlik.com/</url>
+	</spider>
+	<spider ident="YahooCacheSystem">
+		<name>Yahoo-Cache</name>
+	</spider>
+	<spider ident="awin.com">
+		<name>Awin Site Screenshot</name>
+	</spider>
+	<spider ident="Leap">
+		<name>Leap</name>
+	</spider>
+	<spider ident="Domains Project">
+		<name>Domains Project</name>
+		<url>https://domainsproject.org</url>
+	</spider>
+	<spider ident="MAZBot">
+		<name>MAZBot Systems</name>
+		<url>http://mazdigital.com</url>
+	</spider>
+	<spider ident="metadata-downloader-bot">
+		<name>Linqia</name>
+		<url>https://www.linqia.com/</url>
+	</spider>
+	<spider ident="DomCopBot">
+		<name>DomCop Bot</name>
+		<url>https://www.domcop.com/bot</url>
+	</spider>
+	<spider ident="CheckMarkNetwork">
+		<name>CheckMark Network’s Crawler</name>
+		<url>http://www.checkmarknetwork.com/spider.html</url>
+	</spider>
+	<spider ident="CrawlaDeBot">
+		<name>crawla</name>
+		<url>https://crawla.de/de/index.php</url>
+	</spider>
+	<spider ident="Birdcrawlerbot">
+		<name>crawla</name>
+		<url>https://crawla.de/de/index.php</url>
+	</spider>
+	<spider ident="hypestat">
+		<name>HypeStat</name>
+		<url>https://hypestat.com/bot</url>
+	</spider>
+	<spider ident="MauiBot">
+		<name>MauiBot</name>
+	</spider>
+	<spider ident="PRTG">
+		<name>PRTG</name>
+	</spider>
+	<spider ident="Onespot-ScraperBot">
+		<name>Onespot</name>
+		<url>https://www.onespot.com/identifying-traffic.html</url>
+	</spider>
+	<spider ident="Linespider">
+		<name>LINE</name>
+		<url>https://www.onespot.com/identifying-traffic.html</url>
+	</spider>
+	<spider ident="PocketParser">
+		<name>Pocket</name>
+		<url>https://getpocket.com/pocketparser_ua</url>
+	</spider>
+	<spider ident="FreshpingBot">
+		<name>freshping</name>
+		<url>https://freshping.io/</url>
+	</spider>
+	<spider ident="tigerbot">
+		<name>Tiger.ch</name>
+		<url>https://tiger.ch/</url>
+	</spider>
+	<spider ident="PicCollage">
+		<name>PicCollage</name>
+		<url>https://piccollage.com/</url>
+	</spider>
+	<spider ident="pimeyes.com crawler">
+		<name>PimEyes Face Search Engine</name>
+		<url>https://pimeyes.com/</url>
+	</spider>
+	<spider ident="SeoChecker">
+		<name>SeoChecker</name>
+	</spider>
+	<spider ident="MixrankBot">
+		<name>MixRank</name>
+		<url>https://mixrank.com/</url>
+	</spider>
+	<spider ident="ImplisenseBot">
+		<name>Implisense</name>
+		<url>https://implisense.com/</url>
+	</spider>
+	<spider ident="annotate_google">
+		<name>annotate google</name>
+	</spider>
+	<spider ident="JetBrains Omea Reader">
+		<name>JetBrains Omea Reader</name>
+		<url>http://www.jetbrains.com/omea_reader/</url>
+	</spider>
+	<spider ident="CISPA Webcrawler">
+		<name>CISPA</name>
+		<url>https://vuln-notify-checker.cispa.saarland</url>
+	</spider>
+	<spider ident="finbot">
+		<name>Finbot</name>
+		<url>https://finbot.com/</url>
+	</spider>
+	<spider ident="SafeDNSBot">
+		<name>SafeDNS Categorization Crawler</name>
+		<url>https://www.safedns.com/searchbot</url>
+	</spider>
+	<spider ident="SpiderLing">
+		<name>Big Web Corpora</name>
+		<url>https://nlp.fi.muni.cz/projects/biwec/</url>
+	</spider>
+	<spider ident="Turnitin">
+		<name>Turnitin</name>
+		<url>https://bit.ly/2UvnfoQ</url>
+	</spider>
+	<spider ident="Rustbot">
+		<name>Rustbot (Discord Bot)</name>
+	</spider>
+	<spider ident="buzzstream-tools-hrd">
+		<name>BuzzStream</name>
+	</spider>
+	<spider ident="CMS Crawler">
+		<name>CMS Crawler</name>
+		<url>http://www.cmscrawler.com</url>
+	</spider>
+	<spider ident="LCC">
+		<name>Leipzig Corpora Collection</name>
+		<url>https://corpora.uni-leipzig.de/crawler_faq.html</url>
+	</spider>
+	<spider ident="YioopBot">
+		<name>Yioop!</name>
+		<url>https://www.yioop.com/bot.php</url>
+	</spider>
+	<spider ident="W3C_Validator">
+		<name>W3C Markup Validator</name>
+		<url>https://validator.w3.org/services</url>
+	</spider>
+	<spider ident="W3C-checklink">
+		<name>W3C Link checker</name>
+		<url>https://validator.w3.org/services</url>
+	</spider>
+	<spider ident="W3C-mobileOK">
+		<name>W3C Mobile OK Checker</name>
+		<url>https://validator.w3.org/services</url>
+	</spider>
+	<spider ident="W3C_I18n-Checker">
+		<name>W3C Internationalization Checker</name>
+		<url>https://validator.w3.org/services</url>
+	</spider>
+	<spider ident="NING">
+		<name>W3C Validator Suite</name>
+		<url>https://validator.w3.org/services</url>
+	</spider>
+	<spider ident="W3C_CSS_Validator_JFouffa">
+		<name>W3C FeedValidator</name>
+		<url>https://validator.w3.org/services</url>
+	</spider>
+	<spider ident="W3C_I18n-Checker">
+		<name>W3C Internationalization Checker</name>
+		<url>https://validator.w3.org/services</url>
+	</spider>
+	<spider ident="W3C_Unicorn">
+		<name>W3C IUnicorn</name>
+		<url>https://validator.w3.org/services</url>
+	</spider>
+	<spider ident="2GDPR">
+		<name>2GDPR</name>
+		<url>https://2gdpr.com</url>
+	</spider>
+	<spider ident="Semanticbot">
+		<name>SempiTech</name>
+		<url>https://sempi.tech/bot.html</url>
+	</spider>
+	<spider ident="MxToolbox">
+		<name>MxToolbox</name>
+		<url>http://www.mxtoolbox.com/</url>
+	</spider>
+	<spider ident="Crawlson">
+		<name>Crawlson</name>
+		<url>https://www.crawlson.com/</url>
 	</spider>
 </data>
