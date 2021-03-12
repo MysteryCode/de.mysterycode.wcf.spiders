@@ -501,7 +501,7 @@
 	</spider>
 	<spider ident="Daum">
 		<name>Daum</name>
-		<url>http://cs.daum.net/faq/15/4118.html?faqId=28966)</url>
+		<url>http://cs.daum.net/faq/15/4118.html?faqId=28966</url>
 	</spider>
 	<spider ident="seewithkids.com">
 		<name>See with kids</name>
@@ -521,5 +521,130 @@
 	<spider ident="SD4M-fetcher">
 		<name>SD4M</name>
 		<url>https://sd4m.net/</url>
+	</spider>
+	<spider ident="IonCrawl">
+		<name>Ionos</name>
+		<url>https://www.ionos.de/terms-gtc/faq-crawler/</url>
+	</spider>
+	<spider ident="ShortLinkTranslate">
+		<name>ShortLinkTranslate</name>
+	</spider>
+	<spider ident="dcrawl">
+		<name>dcrawl</name>
+		<url>https://github.com/kgretzky/dcrawl</url>
+	</spider>
+	<spider ident="Rome Client">
+		<name>TinyURL</name>
+	</spider>
+	<spider ident="adreview">
+		<name>adreview</name>
+	</spider>
+	<spider ident="cortex">
+		<name>adreview</name>
+	</spider>
+	<spider ident="RSiteAuditor">
+		<name>Ubersuggest</name>
+	</spider>
+	<spider ident="GoogleAdSenseInfeed">
+		<name>Google AdSense Infeed</name>
+	</spider>
+	<spider ident="facebookexternalhit">
+		<name>Facebook-Crawler</name>
+		<url>http://www.facebook.com/externalhit_uatext.php</url>
+	</spider>
+	<spider ident="Seekport">
+		<name>Seekport Crawler</name>
+		<url>http://seekport.com/</url>
+	</spider>
+	<spider ident="Faraday">
+		<name>Faraday</name>
+	</spider>
+	<spider ident="SearchAtlas">
+		<name>SearchAtlas SEO</name>
+	</spider>
+	<spider ident="PetalBot">
+		<name>PetalBot</name>
+		<url>https://aspiegel.com/petalbot</url>
+	</spider>
+	<spider ident="AspiegelBot">
+		<name>Aspiegel</name>
+	</spider>
+	<spider ident="inoreader">
+		<name>Inoreader</name>
+	</spider>
+	<spider ident="seedingup">
+		<name>Seedingup</name>
+	</spider>
+	<spider ident="Hexometer">
+		<name>Hexometer</name>
+	</spider>
+	<spider ident="SocialSearcher">
+		<name>SocialSearcher</name>
+	</spider>
+	<spider ident="SentiBot">
+		<name>SocialSearcher</name>
+		<url>http://www.sentibot.eu</url>
+	</spider>
+	<spider ident="Wappalyzer">
+		<name>Wappalyzer</name>
+	</spider>
+	<spider ident="KOCMOHABT">
+		<name>kocmohabt</name>
+	</spider>
+	<spider ident="SeobilityBot">
+		<name>Seobility</name>
+		<url>https://www.seobility.net/sites/bot.html</url>
+	</spider>
+	<spider ident="Landau-Media-Spider">
+		<name>Landau Media</name>
+	</spider>
+	<spider ident="Screaming Frog">
+		<name>Screaming Frog</name>
+	</spider>
+	<spider ident="ResearchBot">
+		<name>ResearchBot</name>
+	</spider>
+	<spider ident="Iframely">
+		<name>Iframely</name>
+		<url>https://iframely.com/docs/about</url>
+	</spider>
+	<spider ident="OrgProbe">
+		<name>Blocked.org.uk</name>
+		<url>http://www.blocked.org.uk</url>
+	</spider>
+	<spider ident="Docoloc">
+		<name>Docoloc</name>
+	</spider>
+	<spider ident="SemanticScholarBot">
+		<name>Semantic Scholar Bot</name>
+		<url>https://www.semanticscholar.org/crawler</url>
+	</spider>
+	<spider ident="NetpeakCheckerBot">
+		<name>NetpeakChecker</name>
+		<url>https://netpeaksoftware.com/checker</url>
+	</spider>
+	<spider ident="SEO Consulting">
+		<name>SEO Consulting</name>
+	</spider>
+	<spider ident="brokenlinkcheck">
+		<name>brokenlinkcheck.com</name>
+	</spider>
+	<spider ident="colly">
+		<name>colly-Crawler</name>
+		<url>https://github.com/gocolly/colly</url>
+	</spider>
+	<spider ident="Cincraw">
+		<name>Cincraw</name>
+		<url>http://cincrawdata.net/bot/</url>
+	</spider>
+	<spider ident="Microsoft Windows Network Diagnostics">
+		<name>Microsoft Windows Network Diagnostics</name>
+	</spider>
+	<spider ident="Info bot">
+		<name>Info-Bot</name>
+	</spider>
+	<spider ident="mindUpBot">
+		<name>Datenbutler</name>
+		<url>https://www.mindup.de/wissen/faq/datenbutler</url>
 	</spider>
 </data>
