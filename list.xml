@@ -969,4 +969,8 @@
 		<name>Crawlson</name>
 		<url>https://www.crawlson.com/</url>
 	</spider>
+	<spider ident="SoftCreatR Media Website Status Check">
+		<name>SoftCreatR Media Website Status Check</name>
+		<url>https://www.softcreatr.com</url>
+	</spider>
 </data>
