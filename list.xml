@@ -972,4 +972,12 @@
 		<name>SoftCreatR Media Website Status Check</name>
 		<url>https://www.softcreatr.com</url>
 	</spider>
+	<spider ident="WSC-Host Monitoring WSC">
+		<name>WSC-Host Monitoring</name>
+		<url>https://www.wsc-host.de</url>
+	</spider>
+	<spider ident="WSC-Host Monitoring Server">
+		<name>WSC-Host Monitoring</name>
+		<url>https://www.wsc-host.de</url>
+	</spider>
 </data>
