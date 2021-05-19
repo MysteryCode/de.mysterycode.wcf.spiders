@@ -164,7 +164,6 @@
 		<name>TelegramBot</name>
 		<url>https://telegram.org/</url>
 	</spider>
-
 	<spider ident="Pinterest">
 		<name>Pinterest Bot</name>
 		<url>http://www.pinterest.com/</url>
