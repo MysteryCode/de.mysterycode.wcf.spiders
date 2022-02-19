@@ -29,14 +29,14 @@
 			<eventclassname>wcf\data\user\online\UserOnline</eventclassname>
 			<eventname>getBrowser</eventname>
 			<listenerclassname>wcf\system\event\listener\ParseCustomUserAgentsListener</listenerclassname>
-			<environment>user</environment>
+			<environment>all</environment>
 			<inherit>1</inherit>
 		</eventlistener>
-		<eventlistener name="getBrowserAdmin">
-			<eventclassname>wcf\data\user\online\UserOnline</eventclassname>
+		<eventlistener name="getBrowserAuthFailure">
+			<eventclassname>wcf\data\user\authentication\failure\McUserAuthenticationFailure</eventclassname>
 			<eventname>getBrowser</eventname>
 			<listenerclassname>wcf\system\event\listener\ParseCustomUserAgentsListener</listenerclassname>
-			<environment>admin</environment>
+			<environment>all</environment>
 			<inherit>1</inherit>
 		</eventlistener>
 		
@@ -55,6 +55,13 @@
 			<eventname>execute</eventname>
 			<listenerclassname>wcf\system\event\listener\MysteryCodeSpiderRefreshUninstallListener</listenerclassname>
 			<environment>admin</environment>
+		</eventlistener>
+		<eventlistener name="getBrowserAdmin">
+			<eventclassname>wcf\data\user\online\UserOnline</eventclassname>
+			<eventname>getBrowser</eventname>
+			<listenerclassname>wcf\system\event\listener\ParseCustomUserAgentsListener</listenerclassname>
+			<environment>admin</environment>
+			<inherit>1</inherit>
 		</eventlistener>
 	</delete>
 </data>

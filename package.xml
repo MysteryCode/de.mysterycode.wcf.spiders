@@ -9,14 +9,8 @@
 		<date>2020-02-12</date>
 	</packageinformation>
 	
-	<compatibility>
-		<api version="2019" />
-		<api version="2018" />
-		<api version="2017" />
-	</compatibility>
-	
 	<requiredpackages>
-		<requiredpackage minversion="3.0.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
+		<requiredpackage minversion="5.4.14"><![CDATA[com.woltlab.wcf]]></requiredpackage>
 	</requiredpackages>
 	
 	<excludedpackages>
