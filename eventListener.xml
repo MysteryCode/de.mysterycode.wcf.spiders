@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/vortex/eventListener.xsd">
-	<import>
-		<eventlistener name="hideUserAgents">
-			<eventclassname>wcf\page\UsersOnlineListPage</eventclassname>
-			<eventname>afterInitObjectList</eventname>
-			<listenerclassname>wcf\system\event\listener\HideUserAgentsUserOnlineListListener</listenerclassname>
-			<environment>user</environment>
-			<options>blacklist_user_agents_hide_from_onlinelist</options>
-			<inherit>1</inherit>
-		</eventlistener>
-		
-		<eventlistener name="disableWoltLabCronjob">
-			<eventclassname>wcf\system\cronjob\RefreshSearchRobotsCronjob</eventclassname>
-			<eventname>execute</eventname>
-			<listenerclassname>wcf\system\event\listener\DisableRefreshSearchRobotsCronjobListener</listenerclassname>
-			<environment>user</environment>
-			<inherit>1</inherit>
-		</eventlistener>
-		<eventlistener name="disableWoltLabCronjobAdmin">
-			<eventclassname>wcf\system\cronjob\RefreshSearchRobotsCronjob</eventclassname>
-			<eventname>execute</eventname>
-			<listenerclassname>wcf\system\event\listener\DisableRefreshSearchRobotsCronjobListener</listenerclassname>
-			<environment>admin</environment>
-			<inherit>1</inherit>
-		</eventlistener>
-		
-		<eventlistener name="getBrowser">
-			<eventclassname>wcf\data\user\online\UserOnline</eventclassname>
-			<eventname>getBrowser</eventname>
-			<listenerclassname>wcf\system\event\listener\ParseCustomUserAgentsListener</listenerclassname>
-			<environment>all</environment>
-			<inherit>1</inherit>
-		</eventlistener>
-		<eventlistener name="getBrowserAuthFailure">
-			<eventclassname>wcf\data\user\authentication\failure\McUserAuthenticationFailure</eventclassname>
-			<eventname>getBrowser</eventname>
-			<listenerclassname>wcf\system\event\listener\ParseCustomUserAgentsListener</listenerclassname>
-			<environment>all</environment>
-			<inherit>1</inherit>
-		</eventlistener>
-		
-		<eventlistener name="enqueueSendUserAgent">
-			<eventclassname>wcf\page\AbstractPage</eventclassname>
-			<eventname>show</eventname>
-			<listenerclassname>wcf\system\event\listener\SendUnknownUserAgentListener</listenerclassname>
-			<environment>user</environment>
-			<options>users_online_send_unknown_useragents</options>
-			<inherit>1</inherit>
-		</eventlistener>
-	</import>
-	<delete>
-		<eventlistener name="uninstallPackageAction">
-			<eventclassname>wcf\acp\action\UninstallPackageAction</eventclassname>
-			<eventname>execute</eventname>
-			<listenerclassname>wcf\system\event\listener\MysteryCodeSpiderRefreshUninstallListener</listenerclassname>
-			<environment>admin</environment>
-		</eventlistener>
-		<eventlistener name="getBrowserAdmin">
-			<eventclassname>wcf\data\user\online\UserOnline</eventclassname>
-			<eventname>getBrowser</eventname>
-			<listenerclassname>wcf\system\event\listener\ParseCustomUserAgentsListener</listenerclassname>
-			<environment>admin</environment>
-			<inherit>1</inherit>
-		</eventlistener>
-	</delete>
+    <import>
+        <eventlistener name="hideUserAgents">
+            <eventclassname>wcf\page\UsersOnlineListPage</eventclassname>
+            <eventname>afterInitObjectList</eventname>
+            <listenerclassname>wcf\system\event\listener\HideUserAgentsUserOnlineListListener</listenerclassname>
+            <environment>user</environment>
+            <options>blacklist_user_agents_hide_from_onlinelist</options>
+            <inherit>1</inherit>
+        </eventlistener>
+
+        <eventlistener name="disableWoltLabCronjob">
+            <eventclassname>wcf\system\cronjob\RefreshSearchRobotsCronjob</eventclassname>
+            <eventname>execute</eventname>
+            <listenerclassname>wcf\system\event\listener\DisableRefreshSearchRobotsCronjobListener</listenerclassname>
+            <environment>user</environment>
+            <inherit>1</inherit>
+        </eventlistener>
+        <eventlistener name="disableWoltLabCronjobAdmin">
+            <eventclassname>wcf\system\cronjob\RefreshSearchRobotsCronjob</eventclassname>
+            <eventname>execute</eventname>
+            <listenerclassname>wcf\system\event\listener\DisableRefreshSearchRobotsCronjobListener</listenerclassname>
+            <environment>admin</environment>
+            <inherit>1</inherit>
+        </eventlistener>
+
+        <eventlistener name="getBrowser">
+            <eventclassname>wcf\data\user\online\UserOnline</eventclassname>
+            <eventname>getBrowser</eventname>
+            <listenerclassname>wcf\system\event\listener\ParseCustomUserAgentsListener</listenerclassname>
+            <environment>all</environment>
+            <inherit>1</inherit>
+        </eventlistener>
+        <eventlistener name="getBrowserAuthFailure">
+            <eventclassname>wcf\data\user\authentication\failure\McUserAuthenticationFailure</eventclassname>
+            <eventname>getBrowser</eventname>
+            <listenerclassname>wcf\system\event\listener\ParseCustomUserAgentsListener</listenerclassname>
+            <environment>all</environment>
+            <inherit>1</inherit>
+        </eventlistener>
+
+        <eventlistener name="enqueueSendUserAgent">
+            <eventclassname>wcf\page\AbstractPage</eventclassname>
+            <eventname>show</eventname>
+            <listenerclassname>wcf\system\event\listener\SendUnknownUserAgentListener</listenerclassname>
+            <environment>user</environment>
+            <options>users_online_send_unknown_useragents</options>
+            <inherit>1</inherit>
+        </eventlistener>
+    </import>
+    <delete>
+        <eventlistener name="uninstallPackageAction">
+            <eventclassname>wcf\acp\action\UninstallPackageAction</eventclassname>
+            <eventname>execute</eventname>
+            <listenerclassname>wcf\system\event\listener\MysteryCodeSpiderRefreshUninstallListener</listenerclassname>
+            <environment>admin</environment>
+        </eventlistener>
+        <eventlistener name="getBrowserAdmin">
+            <eventclassname>wcf\data\user\online\UserOnline</eventclassname>
+            <eventname>getBrowser</eventname>
+            <listenerclassname>wcf\system\event\listener\ParseCustomUserAgentsListener</listenerclassname>
+            <environment>admin</environment>
+            <inherit>1</inherit>
+        </eventlistener>
+    </delete>
 </data>

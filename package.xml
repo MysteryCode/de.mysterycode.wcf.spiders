@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package name="de.mysterycode.wcf.spiders" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://mysterycode.de/XSD/package.xsd">
-	<packageinformation>
-		<packagename><![CDATA[Custom list of spiders]]></packagename>
-		<packagename language="de"><![CDATA[Benutzerdefinierte Spider-Liste]]></packagename>
-		<packagedescription><![CDATA[spiders]]></packagedescription>
-		<packagedescription language="de"><![CDATA[Suchmaschinenroboter]]></packagedescription>
-		<version>1.1.5</version>
-		<date>2022-02-19</date>
-	</packageinformation>
-	
-	<requiredpackages>
-		<requiredpackage minversion="5.4.14"><![CDATA[com.woltlab.wcf]]></requiredpackage>
-	</requiredpackages>
-	
-	<excludedpackages>
-		<excludedpackage version="6.0.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
-	</excludedpackages>
-	
-	<authorinformation>
-		<author><![CDATA[Florian Gail]]></author>
-		<authorurl><![CDATA[https://www.mysterycode.de]]></authorurl>
-	</authorinformation>
-	
-	<instructions type="install">
-		<!-- files -->
-		<instruction type="file" />
-		
-		<!-- XMLs -->
-		<instruction type="eventListener" />
-		<instruction type="cronjob" />
-		<instruction type="option" />
-		
-		<!-- script -->
-		<instruction type="script">acp/install_de.mysterycode.wcf.spiders.php</instruction>
-		
-		<!-- language -->
-		<instruction type="language" />
-	</instructions>
-	
-	<instructions type="update" fromversion="1.1.4 pl 1">
-		<instruction type="file" />
-		<instruction type="eventListener" />
-	</instructions>
+    <packageinformation>
+        <packagename><![CDATA[Custom list of spiders]]></packagename>
+        <packagename language="de"><![CDATA[Benutzerdefinierte Spider-Liste]]></packagename>
+        <packagedescription><![CDATA[spiders]]></packagedescription>
+        <packagedescription language="de"><![CDATA[Suchmaschinenroboter]]></packagedescription>
+        <version>1.1.5</version>
+        <date>2022-02-19</date>
+    </packageinformation>
+
+    <requiredpackages>
+        <requiredpackage minversion="5.4.14"><![CDATA[com.woltlab.wcf]]></requiredpackage>
+    </requiredpackages>
+
+    <excludedpackages>
+        <excludedpackage version="6.0.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
+    </excludedpackages>
+
+    <authorinformation>
+        <author><![CDATA[Florian Gail]]></author>
+        <authorurl><![CDATA[https://www.mysterycode.de]]></authorurl>
+    </authorinformation>
+
+    <instructions type="install">
+        <!-- files -->
+        <instruction type="file"/>
+
+        <!-- XMLs -->
+        <instruction type="eventListener"/>
+        <instruction type="cronjob"/>
+        <instruction type="option"/>
+
+        <!-- script -->
+        <instruction type="script">acp/install_de.mysterycode.wcf.spiders.php</instruction>
+
+        <!-- language -->
+        <instruction type="language"/>
+    </instructions>
+
+    <instructions type="update" fromversion="1.1.4 pl 1">
+        <instruction type="file"/>
+        <instruction type="eventListener"/>
+    </instructions>
 </package>
