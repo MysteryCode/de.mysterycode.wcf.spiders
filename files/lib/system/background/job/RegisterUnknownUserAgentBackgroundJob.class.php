@@ -3,11 +3,14 @@
 namespace wcf\system\background\job;
 
 use Exception;
-use wcf\util\HTTPRequest;
+use GuzzleHttp\Psr7\Request;
+use wcf\system\io\HttpFactory;
 use wcf\util\MessageUtil;
 use wcf\util\StringUtil;
 
 use function wcf\functions\exception\logThrowable;
+
+use const PHP_QUERY_RFC1738;
 
 class RegisterUnknownUserAgentBackgroundJob extends AbstractBackgroundJob
 {
@@ -27,11 +30,23 @@ class RegisterUnknownUserAgentBackgroundJob extends AbstractBackgroundJob
     public function perform()
     {
         try {
-            (new HTTPRequest(
+            $client = HttpFactory::getDefaultClient();
+            $request = new Request(
+                'POST',
                 'https://api.mysterycode.de/woltlab/registeruseragent.php',
-                [],
-                ['userAgent' => StringUtil::trim(MessageUtil::stripCrap($this->userAgent))]
-            ))->execute();
+                [
+                    'Content-Type' => 'application/x-www-form-urlencoded',
+                ],
+                \http_build_query(
+                    [
+                        'userAgent' => StringUtil::trim(MessageUtil::stripCrap($this->userAgent)),
+                    ],
+                    '',
+                    '&',
+                    PHP_QUERY_RFC1738
+                )
+            );
+            $client->send($request);
         } catch (Exception $e) {
             logThrowable($e);
         }

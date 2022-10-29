@@ -3,11 +3,11 @@
 namespace wcf\system\cronjob;
 
 use DOMElement;
+use GuzzleHttp\Psr7\Request;
 use wcf\data\cronjob\Cronjob;
 use wcf\system\cache\builder\SpiderCacheBuilder;
-use wcf\system\exception\SystemException;
+use wcf\system\io\HttpFactory;
 use wcf\system\WCF;
-use wcf\util\HTTPRequest;
 use wcf\util\XML;
 
 /**
@@ -48,21 +48,13 @@ class MysteryCodeSpiderRefreshCronjob extends AbstractCronjob
         $existingSpiders = SpiderCacheBuilder::getInstance()->getData();
 
         foreach ($this->spiderLists as $spiderList) {
-            $request = new HTTPRequest($spiderList);
-
-            try {
-                $request->execute();
-                $reply = $request->getReply();
-            } catch (SystemException $e) {
-                continue;
-            }
+            $client = HttpFactory::getDefaultClient();
+            $request = new Request('GET', $spiderList);
+            $response = $client->send($request);
 
             $xml = new XML();
-            try {
-                $xml->loadXML('mysterycodeSpiderList.xml', $reply['body']);
-            } catch (SystemException $e) {
-                continue;
-            }
+            $xml->loadXML('list.xml', (string)$response->getBody());
+
             $xpath = $xml->xpath();
 
             // fetch spiders
@@ -88,12 +80,12 @@ class MysteryCodeSpiderRefreshCronjob extends AbstractCronjob
         }
 
         if (!empty($this->fetchedSpiders)) {
-            $sql = "INSERT INTO			wcf" . WCF_N . "_spider
-								(spiderIdentifier, spiderName, spiderURL)
-				VALUES				(?, ?, ?)
-				ON DUPLICATE KEY UPDATE		spiderName = VALUES(spiderName),
-								spiderURL = VALUES(spiderURL)";
-            $statement = WCF::getDB()->prepareStatement($sql);
+            $statement = WCF::getDB()->prepare('
+                INSERT INTO     wcf1_spider
+                                (spiderIdentifier, spiderName, spiderURL)
+                VALUES          (?, ?, ?)
+                ON DUPLICATE KEY UPDATE spiderName = VALUES(spiderName), spiderURL = VALUES(spiderURL)
+            ');
 
             WCF::getDB()->beginTransaction();
             foreach ($this->fetchedSpiders as $parameters) {
@@ -107,8 +99,10 @@ class MysteryCodeSpiderRefreshCronjob extends AbstractCronjob
         }
 
         // delete obsolete entries
-        $sql = "DELETE FROM wcf" . WCF_N . "_spider WHERE spiderIdentifier = ?";
-        $statement = WCF::getDB()->prepareStatement($sql);
+        $statement = WCF::getDB()->prepare('
+                DELETE FROM wcf1_spider
+                WHERE       spiderIdentifier = ?
+        ');
         WCF::getDB()->beginTransaction();
         foreach ($existingSpiders as $spider) {
             if (!isset($this->fetchedSpiders[$spider->spiderIdentifier])) {
