@@ -10,6 +10,6 @@ $cronList->readObjects();
 $cron = $cronList->current();
 
 if (!$cron->isDisabled) {
-	$cronAction = new CronjobAction([$cron], 'toggle');
-	$cronAction->executeAction();
+    $cronAction = new CronjobAction([$cron], 'toggle');
+    $cronAction->executeAction();
 }
